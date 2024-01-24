@@ -1,0 +1,3476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b232655cc5812e66a7dcef49a6c239b6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b232655cc5812e66a7dcef49a6c239b6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b232655cc5812e66a7dcef49a6c239b6 = L.map(
+                "map_b232655cc5812e66a7dcef49a6c239b6",
+                {
+                    center: [33.2178415, 126.5167563],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c4ac5e7a80bfff785e0864b85444345d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c4ac5e7a80bfff785e0864b85444345d.addTo(map_b232655cc5812e66a7dcef49a6c239b6);
+        
+    
+            var marker_cluster_c9f66feecce4459df3d920ac274b944e = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_fff50f2efc80a7c6c74055dec16830f1 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_06b11884ef3e0fdc5ad24c62050be1d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fff50f2efc80a7c6c74055dec16830f1.setIcon(icon_06b11884ef3e0fdc5ad24c62050be1d4);
+        
+    
+        var popup_6c829dda146055ae00ee78ae9000a397 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fe32ce12a5ca68a0558779d79b7ef3c1 = $(`<div id="html_fe32ce12a5ca68a0558779d79b7ef3c1" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/SRTPxC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_6c829dda146055ae00ee78ae9000a397.setContent(html_fe32ce12a5ca68a0558779d79b7ef3c1);
+            
+        
+
+        marker_fff50f2efc80a7c6c74055dec16830f1.bindPopup(popup_6c829dda146055ae00ee78ae9000a397)
+        ;
+
+        
+    
+    
+            var marker_a08f4446c8330be41fb9f56863371e88 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e0a37839ab59c52bb1e9426ed6c86baf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a08f4446c8330be41fb9f56863371e88.setIcon(icon_e0a37839ab59c52bb1e9426ed6c86baf);
+        
+    
+        var popup_f6a6a4d7ac3b531ee4a7705f40def26f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3184a6188aaa1d895d3f1400a6464a3f = $(`<div id="html_3184a6188aaa1d895d3f1400a6464a3f" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/SRTPxC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_f6a6a4d7ac3b531ee4a7705f40def26f.setContent(html_3184a6188aaa1d895d3f1400a6464a3f);
+            
+        
+
+        marker_a08f4446c8330be41fb9f56863371e88.bindPopup(popup_f6a6a4d7ac3b531ee4a7705f40def26f)
+        ;
+
+        
+    
+    
+            var marker_2d6d6d9796aa32a74c12e7d13c8be4a7 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_b2f88f47ec0e7d73b6681fef1464191b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d6d6d9796aa32a74c12e7d13c8be4a7.setIcon(icon_b2f88f47ec0e7d73b6681fef1464191b);
+        
+    
+        var popup_d3395d1cf0dd102d4bb312808068abed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bd808dee43113d2b980a146c50e6305a = $(`<div id="html_bd808dee43113d2b980a146c50e6305a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PAgmc9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>검붉은수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_d3395d1cf0dd102d4bb312808068abed.setContent(html_bd808dee43113d2b980a146c50e6305a);
+            
+        
+
+        marker_2d6d6d9796aa32a74c12e7d13c8be4a7.bindPopup(popup_d3395d1cf0dd102d4bb312808068abed)
+        ;
+
+        
+    
+    
+            var marker_8b29f392bcdd55a61727cbecaa8cd6d5 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_cf9187c4b2f19f2035659519699bbc35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b29f392bcdd55a61727cbecaa8cd6d5.setIcon(icon_cf9187c4b2f19f2035659519699bbc35);
+        
+    
+        var popup_7030b0af1bcde1ad04561d1eaea02a12 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5a1b53ecccd63725983b46c04b9bbab9 = $(`<div id="html_5a1b53ecccd63725983b46c04b9bbab9" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PAgmc9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>검붉은수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_7030b0af1bcde1ad04561d1eaea02a12.setContent(html_5a1b53ecccd63725983b46c04b9bbab9);
+            
+        
+
+        marker_8b29f392bcdd55a61727cbecaa8cd6d5.bindPopup(popup_7030b0af1bcde1ad04561d1eaea02a12)
+        ;
+
+        
+    
+    
+            var marker_1b51869b4fc0a1629d1e627deccedce9 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_216c9dc672342a8e6d5489095848e21c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b51869b4fc0a1629d1e627deccedce9.setIcon(icon_216c9dc672342a8e6d5489095848e21c);
+        
+    
+        var popup_578aa969cf96002ea43fe84406995758 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20da950af97d0fb93c660d07093a7448 = $(`<div id="html_20da950af97d0fb93c660d07093a7448" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PAgmc9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>검붉은수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_578aa969cf96002ea43fe84406995758.setContent(html_20da950af97d0fb93c660d07093a7448);
+            
+        
+
+        marker_1b51869b4fc0a1629d1e627deccedce9.bindPopup(popup_578aa969cf96002ea43fe84406995758)
+        ;
+
+        
+    
+    
+            var marker_957cf5ad8102ce3c5b61be73fd72e11c = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_503435d6b545a36b5786cdaa72d7d175 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_957cf5ad8102ce3c5b61be73fd72e11c.setIcon(icon_503435d6b545a36b5786cdaa72d7d175);
+        
+    
+        var popup_4a31d10fd8fdb45de5beddd3eb48223b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1dfe17af4cff16cef6e9b4d80c0e1d09 = $(`<div id="html_1dfe17af4cff16cef6e9b4d80c0e1d09" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PAgmc9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>검붉은수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_4a31d10fd8fdb45de5beddd3eb48223b.setContent(html_1dfe17af4cff16cef6e9b4d80c0e1d09);
+            
+        
+
+        marker_957cf5ad8102ce3c5b61be73fd72e11c.bindPopup(popup_4a31d10fd8fdb45de5beddd3eb48223b)
+        ;
+
+        
+    
+    
+            var marker_4b3e40817dbc359bed65758ef942ee73 = L.marker(
+                [33.2199614, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_4b9d341613505149423c7e53f97b681d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b3e40817dbc359bed65758ef942ee73.setIcon(icon_4b9d341613505149423c7e53f97b681d);
+        
+    
+        var popup_44dbd24b31f153ca7e7ae6095a822bb2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d4ea2a50ac9c317b0f39790a547b6237 = $(`<div id="html_d4ea2a50ac9c317b0f39790a547b6237" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/VwK8VY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃가시산호</b></div><div style='margin-top: 5px;'>폴립의 배역이 불규칙하고 나선형 배역을 한다. 군체는 어두운 빨간색이며 폴립의 색은 옅은 노란색이다. </div><div></div></div>`)[0];
+                popup_44dbd24b31f153ca7e7ae6095a822bb2.setContent(html_d4ea2a50ac9c317b0f39790a547b6237);
+            
+        
+
+        marker_4b3e40817dbc359bed65758ef942ee73.bindPopup(popup_44dbd24b31f153ca7e7ae6095a822bb2)
+        ;
+
+        
+    
+    
+            var marker_e11ca7c79cf0ece818669489f25a7b57 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_0bf583777cb301a78400c2ded3b88c51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e11ca7c79cf0ece818669489f25a7b57.setIcon(icon_0bf583777cb301a78400c2ded3b88c51);
+        
+    
+        var popup_57f224654104207768e5e12d5965507e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ff0870ae7bf9dd77fdad9c01e7e41014 = $(`<div id="html_ff0870ae7bf9dd77fdad9c01e7e41014" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/VwK8VY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃가시산호</b></div><div style='margin-top: 5px;'>폴립의 배역이 불규칙하고 나선형 배역을 한다. 군체는 어두운 빨간색이며 폴립의 색은 옅은 노란색이다. </div><div></div></div>`)[0];
+                popup_57f224654104207768e5e12d5965507e.setContent(html_ff0870ae7bf9dd77fdad9c01e7e41014);
+            
+        
+
+        marker_e11ca7c79cf0ece818669489f25a7b57.bindPopup(popup_57f224654104207768e5e12d5965507e)
+        ;
+
+        
+    
+    
+            var marker_f8657cd7e15a51e26bedf5a959022ddc = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_9b6543688fefe9e2a1861e1a15c37d23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8657cd7e15a51e26bedf5a959022ddc.setIcon(icon_9b6543688fefe9e2a1861e1a15c37d23);
+        
+    
+        var popup_42ae86a5ea7805dfd4a4412f3a963812 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1e22a4153007622d94ba1b7ece6b38b0 = $(`<div id="html_1e22a4153007622d94ba1b7ece6b38b0" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/VwK8VY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃가시산호</b></div><div style='margin-top: 5px;'>폴립의 배역이 불규칙하고 나선형 배역을 한다. 군체는 어두운 빨간색이며 폴립의 색은 옅은 노란색이다. </div><div></div></div>`)[0];
+                popup_42ae86a5ea7805dfd4a4412f3a963812.setContent(html_1e22a4153007622d94ba1b7ece6b38b0);
+            
+        
+
+        marker_f8657cd7e15a51e26bedf5a959022ddc.bindPopup(popup_42ae86a5ea7805dfd4a4412f3a963812)
+        ;
+
+        
+    
+    
+            var marker_86f3fb4b6c19e9ae2833447ace723fd0 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_91b189f3b98ee0299b651bf5e388a012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86f3fb4b6c19e9ae2833447ace723fd0.setIcon(icon_91b189f3b98ee0299b651bf5e388a012);
+        
+    
+        var popup_05e4f837ed4926c7112681be30247633 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1333d60b24c1cb7a1abc2784dee75e3c = $(`<div id="html_1333d60b24c1cb7a1abc2784dee75e3c" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/GWtQfY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃총산호</b></div><div style='margin-top: 5px;'>꽃총산호히드라와 공생관계이다. 군체의 가지는 원통형으로 50~60° 각도로 다소 길게 분지하며, 유연하여 휘기 쉽다. 가지의 색은 붉은색이지만 히드라로 인해 흰 띠가 둘러진 것처럼 보인다. 군체는 선명한 붉은색이며, 폴립은 투명하나 다소 붉은색이다. </div><div></div></div>`)[0];
+                popup_05e4f837ed4926c7112681be30247633.setContent(html_1333d60b24c1cb7a1abc2784dee75e3c);
+            
+        
+
+        marker_86f3fb4b6c19e9ae2833447ace723fd0.bindPopup(popup_05e4f837ed4926c7112681be30247633)
+        ;
+
+        
+    
+    
+            var marker_46f3304d04c4099ddaf0509e962f7ae4 = L.marker(
+                [33.2199614, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_dd8416e490227c242d9fc51c0d558afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46f3304d04c4099ddaf0509e962f7ae4.setIcon(icon_dd8416e490227c242d9fc51c0d558afa);
+        
+    
+        var popup_2be773e9f3a6574e378219ae99a7b141 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7ead2a0965954c444ad83e33eafe5bce = $(`<div id="html_7ead2a0965954c444ad83e33eafe5bce" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/GWtQfY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃총산호</b></div><div style='margin-top: 5px;'>꽃총산호히드라와 공생관계이다. 군체의 가지는 원통형으로 50~60° 각도로 다소 길게 분지하며, 유연하여 휘기 쉽다. 가지의 색은 붉은색이지만 히드라로 인해 흰 띠가 둘러진 것처럼 보인다. 군체는 선명한 붉은색이며, 폴립은 투명하나 다소 붉은색이다. </div><div></div></div>`)[0];
+                popup_2be773e9f3a6574e378219ae99a7b141.setContent(html_7ead2a0965954c444ad83e33eafe5bce);
+            
+        
+
+        marker_46f3304d04c4099ddaf0509e962f7ae4.bindPopup(popup_2be773e9f3a6574e378219ae99a7b141)
+        ;
+
+        
+    
+    
+            var marker_8f43fd4f31f40e61ddff6f3fc31ae88d = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_a5db88b677ad3f2716bc30e203b1f48c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f43fd4f31f40e61ddff6f3fc31ae88d.setIcon(icon_a5db88b677ad3f2716bc30e203b1f48c);
+        
+    
+        var popup_99616dcf122a7f7e69fdb47dcacf00a9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9cf4a65472f5acb3683714a8e6c3919a = $(`<div id="html_9cf4a65472f5acb3683714a8e6c3919a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/GWtQfY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃총산호</b></div><div style='margin-top: 5px;'>꽃총산호히드라와 공생관계이다. 군체의 가지는 원통형으로 50~60° 각도로 다소 길게 분지하며, 유연하여 휘기 쉽다. 가지의 색은 붉은색이지만 히드라로 인해 흰 띠가 둘러진 것처럼 보인다. 군체는 선명한 붉은색이며, 폴립은 투명하나 다소 붉은색이다. </div><div></div></div>`)[0];
+                popup_99616dcf122a7f7e69fdb47dcacf00a9.setContent(html_9cf4a65472f5acb3683714a8e6c3919a);
+            
+        
+
+        marker_8f43fd4f31f40e61ddff6f3fc31ae88d.bindPopup(popup_99616dcf122a7f7e69fdb47dcacf00a9)
+        ;
+
+        
+    
+    
+            var marker_72612f59e9c29fa00bff2a6c5c6c873b = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_935ccba189ec27e49e4574079ff8da58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72612f59e9c29fa00bff2a6c5c6c873b.setIcon(icon_935ccba189ec27e49e4574079ff8da58);
+        
+    
+        var popup_bab5ef133a4e27054238bf144da6037b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bac9a5693df56c8e19a7ccc87fa3597b = $(`<div id="html_bac9a5693df56c8e19a7ccc87fa3597b" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/GWtQfY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃총산호</b></div><div style='margin-top: 5px;'>꽃총산호히드라와 공생관계이다. 군체의 가지는 원통형으로 50~60° 각도로 다소 길게 분지하며, 유연하여 휘기 쉽다. 가지의 색은 붉은색이지만 히드라로 인해 흰 띠가 둘러진 것처럼 보인다. 군체는 선명한 붉은색이며, 폴립은 투명하나 다소 붉은색이다. </div><div></div></div>`)[0];
+                popup_bab5ef133a4e27054238bf144da6037b.setContent(html_bac9a5693df56c8e19a7ccc87fa3597b);
+            
+        
+
+        marker_72612f59e9c29fa00bff2a6c5c6c873b.bindPopup(popup_bab5ef133a4e27054238bf144da6037b)
+        ;
+
+        
+    
+    
+            var marker_ac9128f883f657c78b91cc8ada439101 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_8f230d9acea0fc2923959f38b8bba6db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac9128f883f657c78b91cc8ada439101.setIcon(icon_8f230d9acea0fc2923959f38b8bba6db);
+        
+    
+        var popup_42785b2e0f2eedc8adb495988295fd41 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_416654ba9014ad7c253532307793ac6b = $(`<div id="html_416654ba9014ad7c253532307793ac6b" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/GWtQfY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃총산호</b></div><div style='margin-top: 5px;'>꽃총산호히드라와 공생관계이다. 군체의 가지는 원통형으로 50~60° 각도로 다소 길게 분지하며, 유연하여 휘기 쉽다. 가지의 색은 붉은색이지만 히드라로 인해 흰 띠가 둘러진 것처럼 보인다. 군체는 선명한 붉은색이며, 폴립은 투명하나 다소 붉은색이다.</div><div></div></div>`)[0];
+                popup_42785b2e0f2eedc8adb495988295fd41.setContent(html_416654ba9014ad7c253532307793ac6b);
+            
+        
+
+        marker_ac9128f883f657c78b91cc8ada439101.bindPopup(popup_42785b2e0f2eedc8adb495988295fd41)
+        ;
+
+        
+    
+    
+            var marker_79db807e6052cc3b50c0611d46614555 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_889c457ef65cfb99bc83581b3132e835 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_79db807e6052cc3b50c0611d46614555.setIcon(icon_889c457ef65cfb99bc83581b3132e835);
+        
+    
+        var popup_c4e9854cfe4f9d198d9eb6f9d6e842bb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fe0385756a08375baf5d03422ee84dc6 = $(`<div id="html_fe0385756a08375baf5d03422ee84dc6" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/GWtQfY.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃총산호</b></div><div style='margin-top: 5px;'>꽃총산호히드라와 공생관계이다. 군체의 가지는 원통형으로 50~60° 각도로 다소 길게 분지하며, 유연하여 휘기 쉽다. 가지의 색은 붉은색이지만 히드라로 인해 흰 띠가 둘러진 것처럼 보인다. 군체는 선명한 붉은색이며, 폴립은 투명하나 다소 붉은색이다. </div><div></div></div>`)[0];
+                popup_c4e9854cfe4f9d198d9eb6f9d6e842bb.setContent(html_fe0385756a08375baf5d03422ee84dc6);
+            
+        
+
+        marker_79db807e6052cc3b50c0611d46614555.bindPopup(popup_c4e9854cfe4f9d198d9eb6f9d6e842bb)
+        ;
+
+        
+    
+    
+            var marker_e88454b284ebd17a54521dd7b0cc0ef6 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_72882bfa4256f8734e41170cf333383d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e88454b284ebd17a54521dd7b0cc0ef6.setIcon(icon_72882bfa4256f8734e41170cf333383d);
+        
+    
+        var popup_b0ef42ab3dc70c769a1df017bf547c5d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b9e9652050e0655ca18fe5ec218d5221 = $(`<div id="html_b9e9652050e0655ca18fe5ec218d5221" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Vk5VgC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>둥근컵산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_b0ef42ab3dc70c769a1df017bf547c5d.setContent(html_b9e9652050e0655ca18fe5ec218d5221);
+            
+        
+
+        marker_e88454b284ebd17a54521dd7b0cc0ef6.bindPopup(popup_b0ef42ab3dc70c769a1df017bf547c5d)
+        ;
+
+        
+    
+    
+            var marker_339cf78885893069462a6ac405e47b56 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_4b3721ae12fa83c43f554a547b0f2a44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_339cf78885893069462a6ac405e47b56.setIcon(icon_4b3721ae12fa83c43f554a547b0f2a44);
+        
+    
+        var popup_d66f3c764d8a1706a40f76ab6d4320f3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_96478b22b192bbe8b7219e6a2f4250cc = $(`<div id="html_96478b22b192bbe8b7219e6a2f4250cc" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Vk5VgC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>둥근컵산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_d66f3c764d8a1706a40f76ab6d4320f3.setContent(html_96478b22b192bbe8b7219e6a2f4250cc);
+            
+        
+
+        marker_339cf78885893069462a6ac405e47b56.bindPopup(popup_d66f3c764d8a1706a40f76ab6d4320f3)
+        ;
+
+        
+    
+    
+            var marker_fdbed4a3c3b74011afee14c45dcd2de2 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f7df59f5e608bd9330ecd5d44763a762 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdbed4a3c3b74011afee14c45dcd2de2.setIcon(icon_f7df59f5e608bd9330ecd5d44763a762);
+        
+    
+        var popup_1bc37ea0859ad1db4a75022432b68199 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f6146aa1ab9870831d26136bcabcd328 = $(`<div id="html_f6146aa1ab9870831d26136bcabcd328" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Vk5VgC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>둥근컵산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_1bc37ea0859ad1db4a75022432b68199.setContent(html_f6146aa1ab9870831d26136bcabcd328);
+            
+        
+
+        marker_fdbed4a3c3b74011afee14c45dcd2de2.bindPopup(popup_1bc37ea0859ad1db4a75022432b68199)
+        ;
+
+        
+    
+    
+            var marker_fe2e5df85d638ef902be6a1255422e3b = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_268b30859c541c26ff3744091656ad09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fe2e5df85d638ef902be6a1255422e3b.setIcon(icon_268b30859c541c26ff3744091656ad09);
+        
+    
+        var popup_f68fb61516164f5d3d2ea9668ddb0235 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ac4c10f8dca4c9008fff51775969a8b6 = $(`<div id="html_ac4c10f8dca4c9008fff51775969a8b6" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/d5Y62f.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>밤수지맨드라미</b></div><div style='margin-top: 5px;'>폴립 끝 골편이 마치 밤송이처럼 보여 밤수지 맨드라미라 불린다.산호숨이부채게와 줄새우류 등 다양한 생물들이 공생한다. 군체의 형태는 활짝 피었을 때 가지를 친 나무 모양이며 종종 가지가 수축하여 덩어리져 있다. 촉수와 화두는 적색을 띄며, 줄기와 가지는 무색, 폴립머리는 주황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_f68fb61516164f5d3d2ea9668ddb0235.setContent(html_ac4c10f8dca4c9008fff51775969a8b6);
+            
+        
+
+        marker_fe2e5df85d638ef902be6a1255422e3b.bindPopup(popup_f68fb61516164f5d3d2ea9668ddb0235)
+        ;
+
+        
+    
+    
+            var marker_391ad057f9cbc54f3309f6b41b68e9a4 = L.marker(
+                [33.2199614, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_0981dbb6819dc385c9d2f9c723639b17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_391ad057f9cbc54f3309f6b41b68e9a4.setIcon(icon_0981dbb6819dc385c9d2f9c723639b17);
+        
+    
+        var popup_c93c419d5c410d7e8083c887ff346e0c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_291241dbd496b86e070e493dbb6bbc10 = $(`<div id="html_291241dbd496b86e070e493dbb6bbc10" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/d5Y62f.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>밤수지맨드라미</b></div><div style='margin-top: 5px;'>폴립 끝 골편이 마치 밤송이처럼 보여 밤수지 맨드라미라 불린다.산호숨이부채게와 줄새우류 등 다양한 생물들이 공생한다. 군체의 형태는 활짝 피었을 때 가지를 친 나무 모양이며 종종 가지가 수축하여 덩어리져 있다. 촉수와 화두는 적색을 띄며, 줄기와 가지는 무색, 폴립머리는 주황색을 띤다.</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_c93c419d5c410d7e8083c887ff346e0c.setContent(html_291241dbd496b86e070e493dbb6bbc10);
+            
+        
+
+        marker_391ad057f9cbc54f3309f6b41b68e9a4.bindPopup(popup_c93c419d5c410d7e8083c887ff346e0c)
+        ;
+
+        
+    
+    
+            var marker_997c01010aca944a65d17953ea0885e5 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_67f24ef2c15763cea1b631b6ba9fd266 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_997c01010aca944a65d17953ea0885e5.setIcon(icon_67f24ef2c15763cea1b631b6ba9fd266);
+        
+    
+        var popup_734548963dc0976b4ed43443bb325db3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b5c1719875ac6117eec0b24464d0dd14 = $(`<div id="html_b5c1719875ac6117eec0b24464d0dd14" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/d5Y62f.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>밤수지맨드라미</b></div><div style='margin-top: 5px;'>폴립 끝 골편이 마치 밤송이처럼 보여 밤수지 맨드라미라 불린다.산호숨이부채게와 줄새우류 등 다양한 생물들이 공생한다. 군체의 형태는 활짝 피었을 때 가지를 친 나무 모양이며 종종 가지가 수축하여 덩어리져 있다. 촉수와 화두는 적색을 띄며, 줄기와 가지는 무색, 폴립머리는 주황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_734548963dc0976b4ed43443bb325db3.setContent(html_b5c1719875ac6117eec0b24464d0dd14);
+            
+        
+
+        marker_997c01010aca944a65d17953ea0885e5.bindPopup(popup_734548963dc0976b4ed43443bb325db3)
+        ;
+
+        
+    
+    
+            var marker_9b2861fd54fda3fc1bbe029071e750a3 = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f40fe56ecdf1ed55eb3798125d3dbe35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b2861fd54fda3fc1bbe029071e750a3.setIcon(icon_f40fe56ecdf1ed55eb3798125d3dbe35);
+        
+    
+        var popup_17f811a04b86cfa8646cefee160b067f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ff44a638f2a345a8707a654e934dbd5a = $(`<div id="html_ff44a638f2a345a8707a654e934dbd5a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/d5Y62f.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>밤수지맨드라미</b></div><div style='margin-top: 5px;'>폴립 끝 골편이 마치 밤송이처럼 보여 밤수지 맨드라미라 불린다.산호숨이부채게와 줄새우류 등 다양한 생물들이 공생한다. 군체의 형태는 활짝 피었을 때 가지를 친 나무 모양이며 종종 가지가 수축하여 덩어리져 있다. 촉수와 화두는 적색을 띄며, 줄기와 가지는 무색, 폴립머리는 주황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_17f811a04b86cfa8646cefee160b067f.setContent(html_ff44a638f2a345a8707a654e934dbd5a);
+            
+        
+
+        marker_9b2861fd54fda3fc1bbe029071e750a3.bindPopup(popup_17f811a04b86cfa8646cefee160b067f)
+        ;
+
+        
+    
+    
+            var marker_a94088b7ae0a03d44d656bcc30eb57ad = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_42e0902fefe125899a5e1345988885bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a94088b7ae0a03d44d656bcc30eb57ad.setIcon(icon_42e0902fefe125899a5e1345988885bf);
+        
+    
+        var popup_ea3823ddc2d6170c388a0659fc80c33d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a63259b80f153a74dd49f326be70f208 = $(`<div id="html_a63259b80f153a74dd49f326be70f208" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/d5Y62f.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>밤수지맨드라미</b></div><div style='margin-top: 5px;'>폴립 끝 골편이 마치 밤송이처럼 보여 밤수지 맨드라미라 불린다.산호숨이부채게와 줄새우류 등 다양한 생물들이 공생한다. 군체의 형태는 활짝 피었을 때 가지를 친 나무 모양이며 종종 가지가 수축하여 덩어리져 있다. 촉수와 화두는 적색을 띄며, 줄기와 가지는 무색, 폴립머리는 주황색을 띤다.</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_ea3823ddc2d6170c388a0659fc80c33d.setContent(html_a63259b80f153a74dd49f326be70f208);
+            
+        
+
+        marker_a94088b7ae0a03d44d656bcc30eb57ad.bindPopup(popup_ea3823ddc2d6170c388a0659fc80c33d)
+        ;
+
+        
+    
+    
+            var marker_058db3e14640e20e2d6dc9333a4e1d79 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_91b87edbe74808d0519a394e365609a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_058db3e14640e20e2d6dc9333a4e1d79.setIcon(icon_91b87edbe74808d0519a394e365609a5);
+        
+    
+        var popup_7cd394e7e4bc740d415721ee367c96d0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8d942fc8bf5912779b6f8db3cc9d01c0 = $(`<div id="html_8d942fc8bf5912779b6f8db3cc9d01c0" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/d5Y62f.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>밤수지맨드라미</b></div><div style='margin-top: 5px;'>폴립 끝 골편이 마치 밤송이처럼 보여 밤수지 맨드라미라 불린다.산호숨이부채게와 줄새우류 등 다양한 생물들이 공생한다. 군체의 형태는 활짝 피었을 때 가지를 친 나무 모양이며 종종 가지가 수축하여 덩어리져 있다. 촉수와 화두는 적색을 띄며, 줄기와 가지는 무색, 폴립머리는 주황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_7cd394e7e4bc740d415721ee367c96d0.setContent(html_8d942fc8bf5912779b6f8db3cc9d01c0);
+            
+        
+
+        marker_058db3e14640e20e2d6dc9333a4e1d79.bindPopup(popup_7cd394e7e4bc740d415721ee367c96d0)
+        ;
+
+        
+    
+    
+            var marker_7d2def50de81dfed036e7b59c27b6be4 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_5dab71148b248ad3832432ba1ba51ed0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d2def50de81dfed036e7b59c27b6be4.setIcon(icon_5dab71148b248ad3832432ba1ba51ed0);
+        
+    
+        var popup_9f8fc97b7628fd895e017b5f6c8f1828 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fc999b3b8b9aa4bf083aad94216347ca = $(`<div id="html_fc999b3b8b9aa4bf083aad94216347ca" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/X6x9Vp.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>별혹산호</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_9f8fc97b7628fd895e017b5f6c8f1828.setContent(html_fc999b3b8b9aa4bf083aad94216347ca);
+            
+        
+
+        marker_7d2def50de81dfed036e7b59c27b6be4.bindPopup(popup_9f8fc97b7628fd895e017b5f6c8f1828)
+        ;
+
+        
+    
+    
+            var marker_9719f95dd1ab766068d9447a4a3faf30 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e19a8ffcfc582446c83e3a0b296a330b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9719f95dd1ab766068d9447a4a3faf30.setIcon(icon_e19a8ffcfc582446c83e3a0b296a330b);
+        
+    
+        var popup_2eb5f40677433414536db4ca21f50fc5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5e68d967f1e06110957ecc5d86028139 = $(`<div id="html_5e68d967f1e06110957ecc5d86028139" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/K1lK9y.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>분홍바다맨드라미</b></div><div style='margin-top: 5px;'>수직벽이나 경사가 급한 암반에 군락을 이룬다. 굵은 주 기둥을 중심으로 가지를 치는데, 마지막 갈라진 가는 가지에 폴립이 열린다. 몸 색은 진한 주황색이 대부분이나, 핑크색 또는 선홍색 변이체도 많다. </div><div></div></div>`)[0];
+                popup_2eb5f40677433414536db4ca21f50fc5.setContent(html_5e68d967f1e06110957ecc5d86028139);
+            
+        
+
+        marker_9719f95dd1ab766068d9447a4a3faf30.bindPopup(popup_2eb5f40677433414536db4ca21f50fc5)
+        ;
+
+        
+    
+    
+            var marker_567332d977762c820f51d4076177acb9 = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_d0850a6aa0ee9c4a07391014dea55929 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_567332d977762c820f51d4076177acb9.setIcon(icon_d0850a6aa0ee9c4a07391014dea55929);
+        
+    
+        var popup_9efc02613aba2a849931e0e51ba29e0d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4a4f1ef091760b6d9627542c024ef9e0 = $(`<div id="html_4a4f1ef091760b6d9627542c024ef9e0" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/K1lK9y.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>분홍바다맨드라미</b></div><div style='margin-top: 5px;'>수직벽이나 경사가 급한 암반에 군락을 이룬다. 굵은 주 기둥을 중심으로 가지를 치는데, 마지막 갈라진 가는 가지에 폴립이 열린다. 몸 색은 진한 주황색이 대부분이나, 핑크색 또는 선홍색 변이체도 많다. </div><div></div></div>`)[0];
+                popup_9efc02613aba2a849931e0e51ba29e0d.setContent(html_4a4f1ef091760b6d9627542c024ef9e0);
+            
+        
+
+        marker_567332d977762c820f51d4076177acb9.bindPopup(popup_9efc02613aba2a849931e0e51ba29e0d)
+        ;
+
+        
+    
+    
+            var marker_6258c66f597a07bfba3e54806e9b0aab = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c3df6c9be90d28c7bacc25686d45cf4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6258c66f597a07bfba3e54806e9b0aab.setIcon(icon_c3df6c9be90d28c7bacc25686d45cf4c);
+        
+    
+        var popup_46485b8b2916dab0a1b82481660a46ff = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3eb28b7aaa633c5467e9c969e05b5ade = $(`<div id="html_3eb28b7aaa633c5467e9c969e05b5ade" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/K1lK9y.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>분홍바다맨드라미</b></div><div style='margin-top: 5px;'>수직벽이나 경사가 급한 암반에 군락을 이룬다. 굵은 주 기둥을 중심으로 가지를 치는데, 마지막 갈라진 가는 가지에 폴립이 열린다. 몸 색은 진한 주황색이 대부분이나, 핑크색 또는 선홍색 변이체도 많다. </div><div></div></div>`)[0];
+                popup_46485b8b2916dab0a1b82481660a46ff.setContent(html_3eb28b7aaa633c5467e9c969e05b5ade);
+            
+        
+
+        marker_6258c66f597a07bfba3e54806e9b0aab.bindPopup(popup_46485b8b2916dab0a1b82481660a46ff)
+        ;
+
+        
+    
+    
+            var marker_d431cb4d446b189c3d4e8ca24b1d0ca1 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_1aa6df1b1f5b7c59fa7e3db2618eb25b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d431cb4d446b189c3d4e8ca24b1d0ca1.setIcon(icon_1aa6df1b1f5b7c59fa7e3db2618eb25b);
+        
+    
+        var popup_f8aab3921dfb654277c06e70b5546724 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_480a06e3625f321f9ea5a74983e16686 = $(`<div id="html_480a06e3625f321f9ea5a74983e16686" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/rORD8Y.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빨강별총산호</b></div><div style='margin-top: 5px;'>꽃총산호와 꽃가시산호가 혼재하여 분포되어 있는 빨강별총산호 군체는 적색이라 꽃총산호와 유사하나 가지 공육이 더 두껍고, 다소 납작하다. 가지는 유연하며, 폴립은 밝은 주황색이다. </div><div></div></div>`)[0];
+                popup_f8aab3921dfb654277c06e70b5546724.setContent(html_480a06e3625f321f9ea5a74983e16686);
+            
+        
+
+        marker_d431cb4d446b189c3d4e8ca24b1d0ca1.bindPopup(popup_f8aab3921dfb654277c06e70b5546724)
+        ;
+
+        
+    
+    
+            var marker_0a4112765c7f95badc4f05489d0f4b2f = L.marker(
+                [33.2199614, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_6c2e2a306b9666076738a9603cd30cda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a4112765c7f95badc4f05489d0f4b2f.setIcon(icon_6c2e2a306b9666076738a9603cd30cda);
+        
+    
+        var popup_30df8876102d093de4767c8387192113 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_61b48d31dc85a7e4ac7cd7bf7adcbda5 = $(`<div id="html_61b48d31dc85a7e4ac7cd7bf7adcbda5" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/rORD8Y.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빨강별총산호</b></div><div style='margin-top: 5px;'>꽃총산호와 꽃가시산호가 혼재하여 분포되어 있는 빨강별총산호 군체는 적색이라 꽃총산호와 유사하나 가지 공육이 더 두껍고, 다소 납작하다. 가지는 유연하며, 폴립은 밝은 주황색이다. </div><div></div></div>`)[0];
+                popup_30df8876102d093de4767c8387192113.setContent(html_61b48d31dc85a7e4ac7cd7bf7adcbda5);
+            
+        
+
+        marker_0a4112765c7f95badc4f05489d0f4b2f.bindPopup(popup_30df8876102d093de4767c8387192113)
+        ;
+
+        
+    
+    
+            var marker_a4d57e1d05382effe97ad4a8055c67c9 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_5dcf6dd5e16c4102243f4dae3f341a19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4d57e1d05382effe97ad4a8055c67c9.setIcon(icon_5dcf6dd5e16c4102243f4dae3f341a19);
+        
+    
+        var popup_5abf3ac11b8de06bccf9961c0fb25db9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1561e0b816216ec8e369b00f422e528b = $(`<div id="html_1561e0b816216ec8e369b00f422e528b" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/sBQxCw.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빨강별총산호</b></div><div style='margin-top: 5px;'>꽃총산호와 꽃가시산호가 혼재하여 분포되어 있는 빨강별총산호 군체는 적색이라 꽃총산호와 유사하나 가지 공육이 더 두껍고, 다소 납작하다. 가지는 유연하며, 폴립은 밝은 주황색이다. </div><div></div></div>`)[0];
+                popup_5abf3ac11b8de06bccf9961c0fb25db9.setContent(html_1561e0b816216ec8e369b00f422e528b);
+            
+        
+
+        marker_a4d57e1d05382effe97ad4a8055c67c9.bindPopup(popup_5abf3ac11b8de06bccf9961c0fb25db9)
+        ;
+
+        
+    
+    
+            var marker_5c5294ce126ed32e369d6ce2bfab33cc = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_208e705b36c27d094d7273fdc87a789a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c5294ce126ed32e369d6ce2bfab33cc.setIcon(icon_208e705b36c27d094d7273fdc87a789a);
+        
+    
+        var popup_4323661126657fb27d3c8ffd515abd03 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_05542b93fa44e3224a2aa0382da0585d = $(`<div id="html_05542b93fa44e3224a2aa0382da0585d" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/sBQxCw.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빨강별총산호</b></div><div style='margin-top: 5px;'>꽃총산호와 꽃가시산호가 혼재하여 분포되어 있는 빨강별총산호 군체는 적색이라 꽃총산호와 유사하나 가지 공육이 더 두껍고, 다소 납작하다. 가지는 유연하며, 폴립은 밝은 주황색이다.</div><div></div></div>`)[0];
+                popup_4323661126657fb27d3c8ffd515abd03.setContent(html_05542b93fa44e3224a2aa0382da0585d);
+            
+        
+
+        marker_5c5294ce126ed32e369d6ce2bfab33cc.bindPopup(popup_4323661126657fb27d3c8ffd515abd03)
+        ;
+
+        
+    
+    
+            var marker_815d35356ec604874512812fca735585 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_00cd96f6d3d909b02a3d24e44f7d0c97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_815d35356ec604874512812fca735585.setIcon(icon_00cd96f6d3d909b02a3d24e44f7d0c97);
+        
+    
+        var popup_1d3cb8acf184bbfe119c0d71f106ed0b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c8815ad52ae8b5693015c84384a32853 = $(`<div id="html_c8815ad52ae8b5693015c84384a32853" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/sBQxCw.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빨강별총산호</b></div><div style='margin-top: 5px;'>꽃총산호와 꽃가시산호가 혼재하여 분포되어 있는 빨강별총산호 군체는 적색이라 꽃총산호와 유사하나 가지 공육이 더 두껍고, 다소 납작하다. 가지는 유연하며, 폴립은 밝은 주황색이다. </div><div></div></div>`)[0];
+                popup_1d3cb8acf184bbfe119c0d71f106ed0b.setContent(html_c8815ad52ae8b5693015c84384a32853);
+            
+        
+
+        marker_815d35356ec604874512812fca735585.bindPopup(popup_1d3cb8acf184bbfe119c0d71f106ed0b)
+        ;
+
+        
+    
+    
+            var marker_11ef177aaab4554d5f856b512361e650 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_d2d0f234f786d5667eb65a19e1b4cde8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11ef177aaab4554d5f856b512361e650.setIcon(icon_d2d0f234f786d5667eb65a19e1b4cde8);
+        
+    
+        var popup_43bf6e66341d2d02c15bfa07ee76d924 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f5fd4a22c430d80582d94a49a477fcd3 = $(`<div id="html_f5fd4a22c430d80582d94a49a477fcd3" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/sBQxCw.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빨강별총산호</b></div><div style='margin-top: 5px;'>꽃총산호와 꽃가시산호가 혼재하여 분포되어 있는 빨강별총산호 군체는 적색이라 꽃총산호와 유사하나 가지 공육이 더 두껍고, 다소 납작하다. 가지는 유연하며, 폴립은 밝은 주황색이다. </div><div></div></div>`)[0];
+                popup_43bf6e66341d2d02c15bfa07ee76d924.setContent(html_f5fd4a22c430d80582d94a49a477fcd3);
+            
+        
+
+        marker_11ef177aaab4554d5f856b512361e650.bindPopup(popup_43bf6e66341d2d02c15bfa07ee76d924)
+        ;
+
+        
+    
+    
+            var marker_934edb0018951d9b63eb455d35cc94bb = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f6c80968449ff16ebd73a3239172c45a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_934edb0018951d9b63eb455d35cc94bb.setIcon(icon_f6c80968449ff16ebd73a3239172c45a);
+        
+    
+        var popup_33fe2892ae724e0294402668cfda9aad = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a5566163408cee42ef1e432f6ec88750 = $(`<div id="html_a5566163408cee42ef1e432f6ec88750" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/B1paYb.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>수풀산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_33fe2892ae724e0294402668cfda9aad.setContent(html_a5566163408cee42ef1e432f6ec88750);
+            
+        
+
+        marker_934edb0018951d9b63eb455d35cc94bb.bindPopup(popup_33fe2892ae724e0294402668cfda9aad)
+        ;
+
+        
+    
+    
+            var marker_50493369c58ef8315189ff94afec2998 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_d4dff211e48774e4a0f21ea2443571be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_50493369c58ef8315189ff94afec2998.setIcon(icon_d4dff211e48774e4a0f21ea2443571be);
+        
+    
+        var popup_d4ae0b995a54825638bbd7c1c611ca6b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0a3524dab7c2d52a598f3a2889bd3233 = $(`<div id="html_0a3524dab7c2d52a598f3a2889bd3233" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/zPBbM3.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>자색수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_d4ae0b995a54825638bbd7c1c611ca6b.setContent(html_0a3524dab7c2d52a598f3a2889bd3233);
+            
+        
+
+        marker_50493369c58ef8315189ff94afec2998.bindPopup(popup_d4ae0b995a54825638bbd7c1c611ca6b)
+        ;
+
+        
+    
+    
+            var marker_b10e819d79a36f59421523038bb63e57 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_7a79542803462fe4b69160c8d93d8c22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b10e819d79a36f59421523038bb63e57.setIcon(icon_7a79542803462fe4b69160c8d93d8c22);
+        
+    
+        var popup_6b8294712692fd4c3403ed83196ae72b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4b6421344697f7a1a76873444107835f = $(`<div id="html_4b6421344697f7a1a76873444107835f" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/soh5Ra.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>측긴맵시산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_6b8294712692fd4c3403ed83196ae72b.setContent(html_4b6421344697f7a1a76873444107835f);
+            
+        
+
+        marker_b10e819d79a36f59421523038bb63e57.bindPopup(popup_6b8294712692fd4c3403ed83196ae72b)
+        ;
+
+        
+    
+    
+            var marker_3929f3b7a6947e2d799d6a7f09ce538f = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_8776305226a6223079126f650b43cbbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3929f3b7a6947e2d799d6a7f09ce538f.setIcon(icon_8776305226a6223079126f650b43cbbb);
+        
+    
+        var popup_08096ce88d77e13873caf0dc0df8de85 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e95c3775f5e87a353a6f66c20006fdec = $(`<div id="html_e95c3775f5e87a353a6f66c20006fdec" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/pdwHgx.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰민가시산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_08096ce88d77e13873caf0dc0df8de85.setContent(html_e95c3775f5e87a353a6f66c20006fdec);
+            
+        
+
+        marker_3929f3b7a6947e2d799d6a7f09ce538f.bindPopup(popup_08096ce88d77e13873caf0dc0df8de85)
+        ;
+
+        
+    
+    
+            var marker_78938d57a1ddf88fcf038334e754a2ad = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_a58fb46836060b3d55a27ae41dc07b0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78938d57a1ddf88fcf038334e754a2ad.setIcon(icon_a58fb46836060b3d55a27ae41dc07b0f);
+        
+    
+        var popup_d1cbe7fa96f55ec151abcc538e012db5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_618395850fb4b9a4bd48d25430ec97ae = $(`<div id="html_618395850fb4b9a4bd48d25430ec97ae" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bz2PmB.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰수지맨드라미</b></div><div style='margin-top: 5px;'>덩어리 군체의 형태로 서식하며 몸체에 선인장 가시와 같은 촉수다발을 가지고 있고, 폴립 덩어리는 가는 가지의 끝부분에 모여 있다. 어초의 거의 모든 면에서 발견되는 중대형 연산호류이다. 군체의 색상은 변이가 심해서 노란색, 붉은색, 분홍색 등 다양한 색상의 군체들이 발견된다. </div><div></div></div>`)[0];
+                popup_d1cbe7fa96f55ec151abcc538e012db5.setContent(html_618395850fb4b9a4bd48d25430ec97ae);
+            
+        
+
+        marker_78938d57a1ddf88fcf038334e754a2ad.bindPopup(popup_d1cbe7fa96f55ec151abcc538e012db5)
+        ;
+
+        
+    
+    
+            var marker_f229a2848f242f4ea4d4c16f4acab53f = L.marker(
+                [33.2199614, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_09661c75df68016bae64eac3d1eaa3f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f229a2848f242f4ea4d4c16f4acab53f.setIcon(icon_09661c75df68016bae64eac3d1eaa3f3);
+        
+    
+        var popup_642aa29f02151fd350de50f2bf2dee04 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c51a2a1b2dbc804159300b5998359380 = $(`<div id="html_c51a2a1b2dbc804159300b5998359380" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bz2PmB.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰수지맨드라미</b></div><div style='margin-top: 5px;'>덩어리 군체의 형태로 서식하며 몸체에 선인장 가시와 같은 촉수다발을 가지고 있고, 폴립 덩어리는 가는 가지의 끝부분에 모여 있다. 어초의 거의 모든 면에서 발견되는 중대형 연산호류이다. 군체의 색상은 변이가 심해서 노란색, 붉은색, 분홍색 등 다양한 색상의 군체들이 발견된다.</div><div></div></div>`)[0];
+                popup_642aa29f02151fd350de50f2bf2dee04.setContent(html_c51a2a1b2dbc804159300b5998359380);
+            
+        
+
+        marker_f229a2848f242f4ea4d4c16f4acab53f.bindPopup(popup_642aa29f02151fd350de50f2bf2dee04)
+        ;
+
+        
+    
+    
+            var marker_b6543bde50b0da00fdfdf47cb5ee696d = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e3c24c6bea64f982142c8f3289a771bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6543bde50b0da00fdfdf47cb5ee696d.setIcon(icon_e3c24c6bea64f982142c8f3289a771bd);
+        
+    
+        var popup_24120a12c9b779e76658c2003256a950 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ddb20df1508ad4bfeea45e715ed2293b = $(`<div id="html_ddb20df1508ad4bfeea45e715ed2293b" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bz2PmB.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰수지맨드라미</b></div><div style='margin-top: 5px;'>덩어리 군체의 형태로 서식하며 몸체에 선인장 가시와 같은 촉수다발을 가지고 있고, 폴립 덩어리는 가는 가지의 끝부분에 모여 있다. 어초의 거의 모든 면에서 발견되는 중대형 연산호류이다. 군체의 색상은 변이가 심해서 노란색, 붉은색, 분홍색 등 다양한 색상의 군체들이 발견된다. </div><div></div></div>`)[0];
+                popup_24120a12c9b779e76658c2003256a950.setContent(html_ddb20df1508ad4bfeea45e715ed2293b);
+            
+        
+
+        marker_b6543bde50b0da00fdfdf47cb5ee696d.bindPopup(popup_24120a12c9b779e76658c2003256a950)
+        ;
+
+        
+    
+    
+            var marker_f46ca35f9b5b15423161a4eaa5e16d0d = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_4747d2002ec5e37c48d05518c7fec311 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f46ca35f9b5b15423161a4eaa5e16d0d.setIcon(icon_4747d2002ec5e37c48d05518c7fec311);
+        
+    
+        var popup_2ba9fa16bb9bb583628333b2bbd82b7a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ad3f115d1a2aab798c2534e9d9fa7435 = $(`<div id="html_ad3f115d1a2aab798c2534e9d9fa7435" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bz2PmB.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰수지맨드라미</b></div><div style='margin-top: 5px;'>덩어리 군체의 형태로 서식하며 몸체에 선인장 가시와 같은 촉수다발을 가지고 있고, 폴립 덩어리는 가는 가지의 끝부분에 모여 있다. 어초의 거의 모든 면에서 발견되는 중대형 연산호류이다. 군체의 색상은 변이가 심해서 노란색, 붉은색, 분홍색 등 다양한 색상의 군체들이 발견된다. </div><div></div></div>`)[0];
+                popup_2ba9fa16bb9bb583628333b2bbd82b7a.setContent(html_ad3f115d1a2aab798c2534e9d9fa7435);
+            
+        
+
+        marker_f46ca35f9b5b15423161a4eaa5e16d0d.bindPopup(popup_2ba9fa16bb9bb583628333b2bbd82b7a)
+        ;
+
+        
+    
+    
+            var marker_18075fb29c103378612c70ab62e8360b = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_de2894a559ad207012ac8ffe7b8886a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18075fb29c103378612c70ab62e8360b.setIcon(icon_de2894a559ad207012ac8ffe7b8886a8);
+        
+    
+        var popup_7099db668d0728b48fac0ef51a90f454 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_05b50facec21b38c113c6934df47cf80 = $(`<div id="html_05b50facec21b38c113c6934df47cf80" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bz2PmB.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰수지맨드라미</b></div><div style='margin-top: 5px;'>덩어리 군체의 형태로 서식하며 몸체에 선인장 가시와 같은 촉수다발을 가지고 있고, 폴립 덩어리는 가는 가지의 끝부분에 모여 있다. 어초의 거의 모든 면에서 발견되는 중대형 연산호류이다. 군체의 색상은 변이가 심해서 노란색, 붉은색, 분홍색 등 다양한 색상의 군체들이 발견된다. </div><div></div></div>`)[0];
+                popup_7099db668d0728b48fac0ef51a90f454.setContent(html_05b50facec21b38c113c6934df47cf80);
+            
+        
+
+        marker_18075fb29c103378612c70ab62e8360b.bindPopup(popup_7099db668d0728b48fac0ef51a90f454)
+        ;
+
+        
+    
+    
+            var marker_513623c987e522c3be7898ef002046c5 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_709bd8b9685a2395d1f49635a9a06676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_513623c987e522c3be7898ef002046c5.setIcon(icon_709bd8b9685a2395d1f49635a9a06676);
+        
+    
+        var popup_02145dd6d627c6373da156ec73c94dad = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f434cadc2f0cfa21cc52ef01fac793d2 = $(`<div id="html_f434cadc2f0cfa21cc52ef01fac793d2" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bz2PmB.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰수지맨드라미</b></div><div style='margin-top: 5px;'>덩어리 군체의 형태로 서식하며 몸체에 선인장 가시와 같은 촉수다발을 가지고 있고, 폴립 덩어리는 가는 가지의 끝부분에 모여 있다. 어초의 거의 모든 면에서 발견되는 중대형 연산호류이다. 군체의 색상은 변이가 심해서 노란색, 붉은색, 분홍색 등 다양한 색상의 군체들이 발견된다. </div><div></div></div>`)[0];
+                popup_02145dd6d627c6373da156ec73c94dad.setContent(html_f434cadc2f0cfa21cc52ef01fac793d2);
+            
+        
+
+        marker_513623c987e522c3be7898ef002046c5.bindPopup(popup_02145dd6d627c6373da156ec73c94dad)
+        ;
+
+        
+    
+    
+            var marker_2197de980bdda7dc1aedd5a0d21b8d2d = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_0349ef48c85853532c5bf77642af7374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2197de980bdda7dc1aedd5a0d21b8d2d.setIcon(icon_0349ef48c85853532c5bf77642af7374);
+        
+    
+        var popup_6792e94c6cdcd1b4d95cca92c201ca76 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7566b15880c16ed0617300734a53c069 = $(`<div id="html_7566b15880c16ed0617300734a53c069" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/MKCvM4.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>혹가시산호</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_6792e94c6cdcd1b4d95cca92c201ca76.setContent(html_7566b15880c16ed0617300734a53c069);
+            
+        
+
+        marker_2197de980bdda7dc1aedd5a0d21b8d2d.bindPopup(popup_6792e94c6cdcd1b4d95cca92c201ca76)
+        ;
+
+        
+    
+    
+            var marker_8ffad8003bacacb1e0a9b83492eb0f06 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_fa188252af825ed4dcce9c14ff5ed365 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ffad8003bacacb1e0a9b83492eb0f06.setIcon(icon_fa188252af825ed4dcce9c14ff5ed365);
+        
+    
+        var popup_870320d0d60aff0abfeeb2d2627c40e6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20dbf3c7090fde81a9c775db3a48c70a = $(`<div id="html_20dbf3c7090fde81a9c775db3a48c70a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bwSKR5.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>흰수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_870320d0d60aff0abfeeb2d2627c40e6.setContent(html_20dbf3c7090fde81a9c775db3a48c70a);
+            
+        
+
+        marker_8ffad8003bacacb1e0a9b83492eb0f06.bindPopup(popup_870320d0d60aff0abfeeb2d2627c40e6)
+        ;
+
+        
+    
+    
+            var marker_e9305deb0e6e04d59418ea0baaaf6d9b = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_2c23fc1f0577b28edbe7953af9c1953e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9305deb0e6e04d59418ea0baaaf6d9b.setIcon(icon_2c23fc1f0577b28edbe7953af9c1953e);
+        
+    
+        var popup_55fbf406da6524f11f53f58fb022a552 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_77ccdd09854eb3cd79ceeea91eeb2324 = $(`<div id="html_77ccdd09854eb3cd79ceeea91eeb2324" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/bwSKR5.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>흰수지맨드라미</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_55fbf406da6524f11f53f58fb022a552.setContent(html_77ccdd09854eb3cd79ceeea91eeb2324);
+            
+        
+
+        marker_e9305deb0e6e04d59418ea0baaaf6d9b.bindPopup(popup_55fbf406da6524f11f53f58fb022a552)
+        ;
+
+        
+    
+    
+            var marker_401777bc7b2c1d929b00ae480cad3568 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_7649a44f7d80be8eec35442066fa8084 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_401777bc7b2c1d929b00ae480cad3568.setIcon(icon_7649a44f7d80be8eec35442066fa8084);
+        
+    
+        var popup_e9710809b6fd746938a2a4e7c4df0c4b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5c127cd59cd4ce7a612a14e315661ff3 = $(`<div id="html_5c127cd59cd4ce7a612a14e315661ff3" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/LffRt3.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 A (보라,미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_e9710809b6fd746938a2a4e7c4df0c4b.setContent(html_5c127cd59cd4ce7a612a14e315661ff3);
+            
+        
+
+        marker_401777bc7b2c1d929b00ae480cad3568.bindPopup(popup_e9710809b6fd746938a2a4e7c4df0c4b)
+        ;
+
+        
+    
+    
+            var marker_b16f98955f01332995588a69b9688ece = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_8c12f03c5deb848b5afa230a5e951852 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b16f98955f01332995588a69b9688ece.setIcon(icon_8c12f03c5deb848b5afa230a5e951852);
+        
+    
+        var popup_d999612fba10e9b0282d809522d50a66 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_402cc2a53a8861dd4799670badaa61e5 = $(`<div id="html_402cc2a53a8861dd4799670badaa61e5" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/LffRt3.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 A (보라,미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_d999612fba10e9b0282d809522d50a66.setContent(html_402cc2a53a8861dd4799670badaa61e5);
+            
+        
+
+        marker_b16f98955f01332995588a69b9688ece.bindPopup(popup_d999612fba10e9b0282d809522d50a66)
+        ;
+
+        
+    
+    
+            var marker_2fa91f024848035ec5bfa470b701bf89 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_3d7597e13338c13559010eb47ba89c43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2fa91f024848035ec5bfa470b701bf89.setIcon(icon_3d7597e13338c13559010eb47ba89c43);
+        
+    
+        var popup_c6d4f0504a702a771b919900f4aaa3d0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_38236d0998bc87c8b943010f3d62149e = $(`<div id="html_38236d0998bc87c8b943010f3d62149e" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PqqPfQ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 B (미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_c6d4f0504a702a771b919900f4aaa3d0.setContent(html_38236d0998bc87c8b943010f3d62149e);
+            
+        
+
+        marker_2fa91f024848035ec5bfa470b701bf89.bindPopup(popup_c6d4f0504a702a771b919900f4aaa3d0)
+        ;
+
+        
+    
+    
+            var marker_bbd8e90e32b190982f55769740b01d24 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_8476913be335fd30e690191f1677e6f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bbd8e90e32b190982f55769740b01d24.setIcon(icon_8476913be335fd30e690191f1677e6f3);
+        
+    
+        var popup_5cea1deaee225d3fc33556e87ce88fd2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1dd5f0917c642a7bde523f3c9cdd0629 = $(`<div id="html_1dd5f0917c642a7bde523f3c9cdd0629" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/mWAYC2.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 C (보라-노랑 색변이, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_5cea1deaee225d3fc33556e87ce88fd2.setContent(html_1dd5f0917c642a7bde523f3c9cdd0629);
+            
+        
+
+        marker_bbd8e90e32b190982f55769740b01d24.bindPopup(popup_5cea1deaee225d3fc33556e87ce88fd2)
+        ;
+
+        
+    
+    
+            var marker_261053eba9d49267dfab15d466d8c646 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_2a44f5a758e7fd3e94eecfeb09c6f2a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_261053eba9d49267dfab15d466d8c646.setIcon(icon_2a44f5a758e7fd3e94eecfeb09c6f2a0);
+        
+    
+        var popup_b6ae789c5525cee393c0cbd6e5aa1a30 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_594d352d8609885db9b3b312b151f350 = $(`<div id="html_594d352d8609885db9b3b312b151f350" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/mWAYC2.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 C (보라-노랑 색변이, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_b6ae789c5525cee393c0cbd6e5aa1a30.setContent(html_594d352d8609885db9b3b312b151f350);
+            
+        
+
+        marker_261053eba9d49267dfab15d466d8c646.bindPopup(popup_b6ae789c5525cee393c0cbd6e5aa1a30)
+        ;
+
+        
+    
+    
+            var marker_a47420e03f09722bae584323fc91fc3e = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c2f2a19c396a5eea2a63d72560c6f63e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a47420e03f09722bae584323fc91fc3e.setIcon(icon_c2f2a19c396a5eea2a63d72560c6f63e);
+        
+    
+        var popup_07a95b27fdbc7b7c7e4a686ed9dc994e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bd2c84594ab85ffe993cf3baabe66a2a = $(`<div id="html_bd2c84594ab85ffe993cf3baabe66a2a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/cA3P02.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 D (빨강, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_07a95b27fdbc7b7c7e4a686ed9dc994e.setContent(html_bd2c84594ab85ffe993cf3baabe66a2a);
+            
+        
+
+        marker_a47420e03f09722bae584323fc91fc3e.bindPopup(popup_07a95b27fdbc7b7c7e4a686ed9dc994e)
+        ;
+
+        
+    
+    
+            var marker_2c0a24358daae1eb391bd3525fbc8949 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_0ee24c428c14f5264356ccd42603a8cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c0a24358daae1eb391bd3525fbc8949.setIcon(icon_0ee24c428c14f5264356ccd42603a8cf);
+        
+    
+        var popup_01f481ac325548015b668100405dd4e7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c448cd433ecb09a8da836ca65a2e7ac2 = $(`<div id="html_c448cd433ecb09a8da836ca65a2e7ac2" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/K4r4DZ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>가시산호과 E (노랑, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_01f481ac325548015b668100405dd4e7.setContent(html_c448cd433ecb09a8da836ca65a2e7ac2);
+            
+        
+
+        marker_2c0a24358daae1eb391bd3525fbc8949.bindPopup(popup_01f481ac325548015b668100405dd4e7)
+        ;
+
+        
+    
+    
+            var marker_913f45c62d67d2fb5c8ed2e4094ecba3 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f85e61f60c07cc8f141cf59350341f89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_913f45c62d67d2fb5c8ed2e4094ecba3.setIcon(icon_f85e61f60c07cc8f141cf59350341f89);
+        
+    
+        var popup_ddbbda9f1b0c1eb535c076161871b388 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f57ee28859ddf51694f0391e153dd018 = $(`<div id="html_f57ee28859ddf51694f0391e153dd018" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/NqZ8qF.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-A(주황, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_ddbbda9f1b0c1eb535c076161871b388.setContent(html_f57ee28859ddf51694f0391e153dd018);
+            
+        
+
+        marker_913f45c62d67d2fb5c8ed2e4094ecba3.bindPopup(popup_ddbbda9f1b0c1eb535c076161871b388)
+        ;
+
+        
+    
+    
+            var marker_4c11986c4e30a996a666d97d2cc616ab = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_cf74c6c7d851928913dfcd3a5523e60d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c11986c4e30a996a666d97d2cc616ab.setIcon(icon_cf74c6c7d851928913dfcd3a5523e60d);
+        
+    
+        var popup_1c39883220236ed5c05068eb993e381c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_01f9f349a9926e7b68316c03062bd996 = $(`<div id="html_01f9f349a9926e7b68316c03062bd996" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/76SA0Z.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-B(노랑, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_1c39883220236ed5c05068eb993e381c.setContent(html_01f9f349a9926e7b68316c03062bd996);
+            
+        
+
+        marker_4c11986c4e30a996a666d97d2cc616ab.bindPopup(popup_1c39883220236ed5c05068eb993e381c)
+        ;
+
+        
+    
+    
+            var marker_24eaf5c3aef282525f4f43bcfcf71628 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_aeae167cae504ce0e90905f008f563f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_24eaf5c3aef282525f4f43bcfcf71628.setIcon(icon_aeae167cae504ce0e90905f008f563f8);
+        
+    
+        var popup_cdbe6d9c6c272fd5d853f83ba3c3ebe8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b5b8f0b8e2b03584e12f243e5144c9b8 = $(`<div id="html_b5b8f0b8e2b03584e12f243e5144c9b8" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/76SA0Z.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-B(노랑, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_cdbe6d9c6c272fd5d853f83ba3c3ebe8.setContent(html_b5b8f0b8e2b03584e12f243e5144c9b8);
+            
+        
+
+        marker_24eaf5c3aef282525f4f43bcfcf71628.bindPopup(popup_cdbe6d9c6c272fd5d853f83ba3c3ebe8)
+        ;
+
+        
+    
+    
+            var marker_187689ee01ed79246a2a30763782a8ef = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_6bae66c5b33531d10f7080831c095ad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_187689ee01ed79246a2a30763782a8ef.setIcon(icon_6bae66c5b33531d10f7080831c095ad7);
+        
+    
+        var popup_4693b5ada1fb85c49cede8f2e89a7d41 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_38d36990ee8bf071c642307a348d5ada = $(`<div id="html_38d36990ee8bf071c642307a348d5ada" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/o5335j.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-미기록A(미색)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_4693b5ada1fb85c49cede8f2e89a7d41.setContent(html_38d36990ee8bf071c642307a348d5ada);
+            
+        
+
+        marker_187689ee01ed79246a2a30763782a8ef.bindPopup(popup_4693b5ada1fb85c49cede8f2e89a7d41)
+        ;
+
+        
+    
+    
+            var marker_5afc4231c46db56f5676986360ffc136 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_6e7dc3ff481a3f31f557822ded6c3c27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5afc4231c46db56f5676986360ffc136.setIcon(icon_6e7dc3ff481a3f31f557822ded6c3c27);
+        
+    
+        var popup_e7a57a6c57aa9c5a40599dc90dcb697f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a206a7583ab31f14a8fe59d660a47fc4 = $(`<div id="html_a206a7583ab31f14a8fe59d660a47fc4" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/o5335j.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-미기록A(미색)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_e7a57a6c57aa9c5a40599dc90dcb697f.setContent(html_a206a7583ab31f14a8fe59d660a47fc4);
+            
+        
+
+        marker_5afc4231c46db56f5676986360ffc136.bindPopup(popup_e7a57a6c57aa9c5a40599dc90dcb697f)
+        ;
+
+        
+    
+    
+            var marker_5a92e73b8267aae8427dcf9ea7439cdd = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c761f646f2ebc0ee093cf85a1fa26252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a92e73b8267aae8427dcf9ea7439cdd.setIcon(icon_c761f646f2ebc0ee093cf85a1fa26252);
+        
+    
+        var popup_04122b6766d73958978f7a423518e708 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_79601c93086919315420f9cc320a1fdf = $(`<div id="html_79601c93086919315420f9cc320a1fdf" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PyxvlV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-수지맨드라미류 A(주황, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_04122b6766d73958978f7a423518e708.setContent(html_79601c93086919315420f9cc320a1fdf);
+            
+        
+
+        marker_5a92e73b8267aae8427dcf9ea7439cdd.bindPopup(popup_04122b6766d73958978f7a423518e708)
+        ;
+
+        
+    
+    
+            var marker_3c68c7f343f2713fbaade7028d2bf31f = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_0452749cb530ec060badf70528a31c9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c68c7f343f2713fbaade7028d2bf31f.setIcon(icon_0452749cb530ec060badf70528a31c9b);
+        
+    
+        var popup_9a801a7d76cc108fcff3ae1f917f5fec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b9fa2c3c731d58a8fef8dd8eb8efe983 = $(`<div id="html_b9fa2c3c731d58a8fef8dd8eb8efe983" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PyxvlV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-수지맨드라미류 A(주황, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_9a801a7d76cc108fcff3ae1f917f5fec.setContent(html_b9fa2c3c731d58a8fef8dd8eb8efe983);
+            
+        
+
+        marker_3c68c7f343f2713fbaade7028d2bf31f.bindPopup(popup_9a801a7d76cc108fcff3ae1f917f5fec)
+        ;
+
+        
+    
+    
+            var marker_592075c7621858d18121d29c39a301f4 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c9d0ef35b2efb1b0891de5497d2fb10d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_592075c7621858d18121d29c39a301f4.setIcon(icon_c9d0ef35b2efb1b0891de5497d2fb10d);
+        
+    
+        var popup_79ab9fe4c5a485a1236105664ab02ca2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c17c12520c067c1e0fd67acf35398770 = $(`<div id="html_c17c12520c067c1e0fd67acf35398770" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PyxvlV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>곤봉바다맨드라미과-수지맨드라미류 A(주황, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_79ab9fe4c5a485a1236105664ab02ca2.setContent(html_c17c12520c067c1e0fd67acf35398770);
+            
+        
+
+        marker_592075c7621858d18121d29c39a301f4.bindPopup(popup_79ab9fe4c5a485a1236105664ab02ca2)
+        ;
+
+        
+    
+    
+            var marker_0f78ecd9aafe5f43a67cb6f399406746 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_be4cab3d75a8b5bbbbd6e228a277ef71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f78ecd9aafe5f43a67cb6f399406746.setIcon(icon_be4cab3d75a8b5bbbbd6e228a277ef71);
+        
+    
+        var popup_1ff039d2449b2465ef549131ddf0510c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_316aeb04f57ebed45533fc94ae92dfac = $(`<div id="html_316aeb04f57ebed45533fc94ae92dfac" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/k0vPVS.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃이끼과 A(주황, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_1ff039d2449b2465ef549131ddf0510c.setContent(html_316aeb04f57ebed45533fc94ae92dfac);
+            
+        
+
+        marker_0f78ecd9aafe5f43a67cb6f399406746.bindPopup(popup_1ff039d2449b2465ef549131ddf0510c)
+        ;
+
+        
+    
+    
+            var marker_0dbde53fcd59fa6b11671486021e054e = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_4d7ac49692eb5456354b2e9cf8978fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0dbde53fcd59fa6b11671486021e054e.setIcon(icon_4d7ac49692eb5456354b2e9cf8978fe2);
+        
+    
+        var popup_f580608aa78ba100fd99792ec0285173 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_48c24f1319cfe06fb09704f97e6d3dde = $(`<div id="html_48c24f1319cfe06fb09704f97e6d3dde" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Y61c0F.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>꽃이끼과 B(투명, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_f580608aa78ba100fd99792ec0285173.setContent(html_48c24f1319cfe06fb09704f97e6d3dde);
+            
+        
+
+        marker_0dbde53fcd59fa6b11671486021e054e.bindPopup(popup_f580608aa78ba100fd99792ec0285173)
+        ;
+
+        
+    
+    
+            var marker_69d944a8d0eda545ede5d04cef58beb5 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_bb293f4e980d10a31a8fd8544ebe4f36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69d944a8d0eda545ede5d04cef58beb5.setIcon(icon_bb293f4e980d10a31a8fd8544ebe4f36);
+        
+    
+        var popup_3202587e12d5052ac62498ac5c7c3a15 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ab44e4ee822f945a2d0bff2e2315c451 = $(`<div id="html_ab44e4ee822f945a2d0bff2e2315c451" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/9WAWRT.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>뿔산호과-바늘산호류 C (노랑, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_3202587e12d5052ac62498ac5c7c3a15.setContent(html_ab44e4ee822f945a2d0bff2e2315c451);
+            
+        
+
+        marker_69d944a8d0eda545ede5d04cef58beb5.bindPopup(popup_3202587e12d5052ac62498ac5c7c3a15)
+        ;
+
+        
+    
+    
+            var marker_32389585795301f240cdcc05f81e55e3 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_71a392f8b11b8135d8444f91c8ad918e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32389585795301f240cdcc05f81e55e3.setIcon(icon_71a392f8b11b8135d8444f91c8ad918e);
+        
+    
+        var popup_8f9c8568c43896702815ae2a6b43359c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_09c48bdcdd8d4a3766354726fd7ccc8a = $(`<div id="html_09c48bdcdd8d4a3766354726fd7ccc8a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/pcnAbQ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>뿔산호과-바늘산호류 D (빨강, 미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_8f9c8568c43896702815ae2a6b43359c.setContent(html_09c48bdcdd8d4a3766354726fd7ccc8a);
+            
+        
+
+        marker_32389585795301f240cdcc05f81e55e3.bindPopup(popup_8f9c8568c43896702815ae2a6b43359c)
+        ;
+
+        
+    
+    
+            var marker_685fdf780613011916303a099fc9bdca = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c76ccadc4becdd96d6763727f5abf57e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_685fdf780613011916303a099fc9bdca.setIcon(icon_c76ccadc4becdd96d6763727f5abf57e);
+        
+    
+        var popup_8e8198c99d9a8668ccddb5f931c7e988 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e12d901638aa3950a963b018448f167b = $(`<div id="html_e12d901638aa3950a963b018448f167b" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Db8ZM9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-둔한진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_8e8198c99d9a8668ccddb5f931c7e988.setContent(html_e12d901638aa3950a963b018448f167b);
+            
+        
+
+        marker_685fdf780613011916303a099fc9bdca.bindPopup(popup_8e8198c99d9a8668ccddb5f931c7e988)
+        ;
+
+        
+    
+    
+            var marker_a2e96808620ea3991a1b3cb9bf209825 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_65447e8a4d05cbc6fdbb028dde0873f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a2e96808620ea3991a1b3cb9bf209825.setIcon(icon_65447e8a4d05cbc6fdbb028dde0873f8);
+        
+    
+        var popup_3fe4c663b6fcf9e69f3e6f728cb21a99 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_efbd4b70bb9b0ea4e590ee234a77d00d = $(`<div id="html_efbd4b70bb9b0ea4e590ee234a77d00d" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Db8ZM9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-둔한진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_3fe4c663b6fcf9e69f3e6f728cb21a99.setContent(html_efbd4b70bb9b0ea4e590ee234a77d00d);
+            
+        
+
+        marker_a2e96808620ea3991a1b3cb9bf209825.bindPopup(popup_3fe4c663b6fcf9e69f3e6f728cb21a99)
+        ;
+
+        
+    
+    
+            var marker_bed639332d89cd454af151b9c2360767 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_8b398d88d6845ecef2f4e278bd70a47b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bed639332d89cd454af151b9c2360767.setIcon(icon_8b398d88d6845ecef2f4e278bd70a47b);
+        
+    
+        var popup_81c3453a1ec19e761d1b2fb4fbaaca5d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a2aa5c469bdd5b5fb7bcb06b50ba0c55 = $(`<div id="html_a2aa5c469bdd5b5fb7bcb06b50ba0c55" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Db8ZM9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-둔한진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_81c3453a1ec19e761d1b2fb4fbaaca5d.setContent(html_a2aa5c469bdd5b5fb7bcb06b50ba0c55);
+            
+        
+
+        marker_bed639332d89cd454af151b9c2360767.bindPopup(popup_81c3453a1ec19e761d1b2fb4fbaaca5d)
+        ;
+
+        
+    
+    
+            var marker_a494687d03a7e07e3127439d01fb6316 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_ad335117a732fb73dfd98a5c23da6b74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a494687d03a7e07e3127439d01fb6316.setIcon(icon_ad335117a732fb73dfd98a5c23da6b74);
+        
+    
+        var popup_b6afdf57ca7973a0c30fc78710102ee6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_af703ef993f198e07fb3a9b1ee3dbd02 = $(`<div id="html_af703ef993f198e07fb3a9b1ee3dbd02" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Owd2MO.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-유착진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_b6afdf57ca7973a0c30fc78710102ee6.setContent(html_af703ef993f198e07fb3a9b1ee3dbd02);
+            
+        
+
+        marker_a494687d03a7e07e3127439d01fb6316.bindPopup(popup_b6afdf57ca7973a0c30fc78710102ee6)
+        ;
+
+        
+    
+    
+            var marker_0deb6b575bdd96fb15dbbbaa4b837b75 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_314696c420a09fdb5f7c0808ddc24fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0deb6b575bdd96fb15dbbbaa4b837b75.setIcon(icon_314696c420a09fdb5f7c0808ddc24fb9);
+        
+    
+        var popup_470ee597a35b0181c3e56b9d3dd4f6b4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b26ad7706bd09e0bcd911cdb09f34fc0 = $(`<div id="html_b26ad7706bd09e0bcd911cdb09f34fc0" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Owd2MO.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-유착진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_470ee597a35b0181c3e56b9d3dd4f6b4.setContent(html_b26ad7706bd09e0bcd911cdb09f34fc0);
+            
+        
+
+        marker_0deb6b575bdd96fb15dbbbaa4b837b75.bindPopup(popup_470ee597a35b0181c3e56b9d3dd4f6b4)
+        ;
+
+        
+    
+    
+            var marker_bde9e712fc5d1a67c67990831154de2e = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f25f15408889c5459de75e7cc96bb6ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bde9e712fc5d1a67c67990831154de2e.setIcon(icon_f25f15408889c5459de75e7cc96bb6ef);
+        
+    
+        var popup_3f7042b905f9fb08286ad640d807fe89 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0c52e56e0cf95ee3bed292e506bd2ac1 = $(`<div id="html_0c52e56e0cf95ee3bed292e506bd2ac1" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Owd2MO.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-유착진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_3f7042b905f9fb08286ad640d807fe89.setContent(html_0c52e56e0cf95ee3bed292e506bd2ac1);
+            
+        
+
+        marker_bde9e712fc5d1a67c67990831154de2e.bindPopup(popup_3f7042b905f9fb08286ad640d807fe89)
+        ;
+
+        
+    
+    
+            var marker_c3a2fd971fffe9575cc08a63350d66d7 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_49a0309f609760a26f6ed42eff0f41c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3a2fd971fffe9575cc08a63350d66d7.setIcon(icon_49a0309f609760a26f6ed42eff0f41c9);
+        
+    
+        var popup_67333291822515319e521ef26983b64f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_29fbd35e2bc2a93ed7bbfb0dcfd4bad9 = $(`<div id="html_29fbd35e2bc2a93ed7bbfb0dcfd4bad9" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/hb7yvC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-직립진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_67333291822515319e521ef26983b64f.setContent(html_29fbd35e2bc2a93ed7bbfb0dcfd4bad9);
+            
+        
+
+        marker_c3a2fd971fffe9575cc08a63350d66d7.bindPopup(popup_67333291822515319e521ef26983b64f)
+        ;
+
+        
+    
+    
+            var marker_515078a6641bba2fe44bf60e1c960c0f = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_dc6255aa5304e7faacbf45515d480d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_515078a6641bba2fe44bf60e1c960c0f.setIcon(icon_dc6255aa5304e7faacbf45515d480d98);
+        
+    
+        var popup_af40ff9a2de1103d64043bc7d42487b4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_de65c9fb3396386e81f305af35fc6bab = $(`<div id="html_de65c9fb3396386e81f305af35fc6bab" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/hb7yvC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-직립진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_af40ff9a2de1103d64043bc7d42487b4.setContent(html_de65c9fb3396386e81f305af35fc6bab);
+            
+        
+
+        marker_515078a6641bba2fe44bf60e1c960c0f.bindPopup(popup_af40ff9a2de1103d64043bc7d42487b4)
+        ;
+
+        
+    
+    
+            var marker_f92b5c2ce3c786fc2b703e8bc0c297ae = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_8d2f4569b7faf12c10e3538edb76aa0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f92b5c2ce3c786fc2b703e8bc0c297ae.setIcon(icon_8d2f4569b7faf12c10e3538edb76aa0e);
+        
+    
+        var popup_049b541746a0464b4e7bbbd515c9f792 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_70b7719bf56922ad57349adc40b200c2 = $(`<div id="html_70b7719bf56922ad57349adc40b200c2" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/0sfDCZ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-곧은진총산호(추정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_049b541746a0464b4e7bbbd515c9f792.setContent(html_70b7719bf56922ad57349adc40b200c2);
+            
+        
+
+        marker_f92b5c2ce3c786fc2b703e8bc0c297ae.bindPopup(popup_049b541746a0464b4e7bbbd515c9f792)
+        ;
+
+        
+    
+    
+            var marker_75734fd50f9ee761321f320c92dd8267 = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_10609443ccaa25925feec8bfd1d2e0c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75734fd50f9ee761321f320c92dd8267.setIcon(icon_10609443ccaa25925feec8bfd1d2e0c8);
+        
+    
+        var popup_c52e42518e29ca908fef8d19761c1cd0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_08d8f925eb49afa6c38dff1daddb5e88 = $(`<div id="html_08d8f925eb49afa6c38dff1daddb5e88" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/0gkB57.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-진총산호류(미동정)</b></div><div style='margin-top: 5px;'>암반에 붙어 나뭇가지 부채골 모양으로 자라는 산호이다. 진총산호류에는 가는진총산호, 곧은진총산호, 둔한진총산호, 불나무진총산호, 유착진총산호 등이 있다. </div><div></div></div>`)[0];
+                popup_c52e42518e29ca908fef8d19761c1cd0.setContent(html_08d8f925eb49afa6c38dff1daddb5e88);
+            
+        
+
+        marker_75734fd50f9ee761321f320c92dd8267.bindPopup(popup_c52e42518e29ca908fef8d19761c1cd0)
+        ;
+
+        
+    
+    
+            var marker_8b39ed3092124505db719c73599a809c = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e7cbe11153635201ecf05d766e0356a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b39ed3092124505db719c73599a809c.setIcon(icon_e7cbe11153635201ecf05d766e0356a8);
+        
+    
+        var popup_079b5bba789cdb9f1e37d6d9556762d6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7719724d1941925e5174b4bcedbb93ae = $(`<div id="html_7719724d1941925e5174b4bcedbb93ae" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/0gkB57.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-진총산호류(미동정)</b></div><div style='margin-top: 5px;'>암반에 붙어 나뭇가지 부채골 모양으로 자라는 산호이다. 진총산호류에는 가는진총산호, 곧은진총산호, 둔한진총산호, 불나무진총산호, 유착진총산호 등이 있다. </div><div></div></div>`)[0];
+                popup_079b5bba789cdb9f1e37d6d9556762d6.setContent(html_7719724d1941925e5174b4bcedbb93ae);
+            
+        
+
+        marker_8b39ed3092124505db719c73599a809c.bindPopup(popup_079b5bba789cdb9f1e37d6d9556762d6)
+        ;
+
+        
+    
+    
+            var marker_c66ef7b6de473e3d4bedc04ed3afc8bc = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_51e7420e085ad15d39f6e4a4d9b8fb80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c66ef7b6de473e3d4bedc04ed3afc8bc.setIcon(icon_51e7420e085ad15d39f6e4a4d9b8fb80);
+        
+    
+        var popup_72975744540a27179ae475a1e4943621 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fc59b7439567292e2518fb6597914446 = $(`<div id="html_fc59b7439567292e2518fb6597914446" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/0gkB57.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-진총산호류(미동정)</b></div><div style='margin-top: 5px;'>암반에 붙어 나뭇가지 부채골 모양으로 자라는 산호이다. 진총산호류에는 가는진총산호, 곧은진총산호, 둔한진총산호, 불나무진총산호, 유착진총산호 등이 있다. </div><div></div></div>`)[0];
+                popup_72975744540a27179ae475a1e4943621.setContent(html_fc59b7439567292e2518fb6597914446);
+            
+        
+
+        marker_c66ef7b6de473e3d4bedc04ed3afc8bc.bindPopup(popup_72975744540a27179ae475a1e4943621)
+        ;
+
+        
+    
+    
+            var marker_754f3423e29a43a4cec35d588d0482b4 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_2aa7cf754cb69d6d4150f1a50bb293e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_754f3423e29a43a4cec35d588d0482b4.setIcon(icon_2aa7cf754cb69d6d4150f1a50bb293e7);
+        
+    
+        var popup_49e8debab25b4d5304db69231ad555cb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_acc240379f8b10a45ca06d6531c18891 = $(`<div id="html_acc240379f8b10a45ca06d6531c18891" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/xdhd0a.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-맵시산호류(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_49e8debab25b4d5304db69231ad555cb.setContent(html_acc240379f8b10a45ca06d6531c18891);
+            
+        
+
+        marker_754f3423e29a43a4cec35d588d0482b4.bindPopup(popup_49e8debab25b4d5304db69231ad555cb)
+        ;
+
+        
+    
+    
+            var marker_8c5f62867c10eebaf3221f0e854411c6 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_13085858fb4f417a8f0e8a8661fec98a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c5f62867c10eebaf3221f0e854411c6.setIcon(icon_13085858fb4f417a8f0e8a8661fec98a);
+        
+    
+        var popup_b8e545ff6205b6b78d15cdd6a7916b7d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_74dfdc1c771d695684fdfd3380f78b6f = $(`<div id="html_74dfdc1c771d695684fdfd3380f78b6f" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/3z2Kx4.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-바보산호류(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_b8e545ff6205b6b78d15cdd6a7916b7d.setContent(html_74dfdc1c771d695684fdfd3380f78b6f);
+            
+        
+
+        marker_8c5f62867c10eebaf3221f0e854411c6.bindPopup(popup_b8e545ff6205b6b78d15cdd6a7916b7d)
+        ;
+
+        
+    
+    
+            var marker_c74e09a8cb6d47be92c34da3cd29dabc = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e68856cadb9f183c83cff63b1a4b626b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c74e09a8cb6d47be92c34da3cd29dabc.setIcon(icon_e68856cadb9f183c83cff63b1a4b626b);
+        
+    
+        var popup_73f13ea07758510d0805ece53118e949 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4b74d1a83820dff83bdabb250cb6bce6 = $(`<div id="html_4b74d1a83820dff83bdabb250cb6bce6" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/3z2Kx4.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-바보산호류(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_73f13ea07758510d0805ece53118e949.setContent(html_4b74d1a83820dff83bdabb250cb6bce6);
+            
+        
+
+        marker_c74e09a8cb6d47be92c34da3cd29dabc.bindPopup(popup_73f13ea07758510d0805ece53118e949)
+        ;
+
+        
+    
+    
+            var marker_b98fc6c5bbd8eda0014ae8c999fb41a4 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_12970f764400984daabe1b16d302b5aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b98fc6c5bbd8eda0014ae8c999fb41a4.setIcon(icon_12970f764400984daabe1b16d302b5aa);
+        
+    
+        var popup_0cda85b99a7aa47c1c849517c999d41d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_46fec3527699a890c4156815baf0bef5 = $(`<div id="html_46fec3527699a890c4156815baf0bef5" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/3z2Kx4.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>총산호과-바보산호류(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_0cda85b99a7aa47c1c849517c999d41d.setContent(html_46fec3527699a890c4156815baf0bef5);
+            
+        
+
+        marker_b98fc6c5bbd8eda0014ae8c999fb41a4.bindPopup(popup_0cda85b99a7aa47c1c849517c999d41d)
+        ;
+
+        
+    
+    
+            var marker_813c0333d3c890bd43d7a292edde613d = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_45cc97cc2b78d0b47604c7eb0a4e47b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_813c0333d3c890bd43d7a292edde613d.setIcon(icon_45cc97cc2b78d0b47604c7eb0a4e47b3);
+        
+    
+        var popup_1aea2896bcb8a535347d484a5967ed1c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8a00902859cd4e18cee0faa7bb927db4 = $(`<div id="html_8a00902859cd4e18cee0faa7bb927db4" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Gl0Mqk.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>긴가지해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_1aea2896bcb8a535347d484a5967ed1c.setContent(html_8a00902859cd4e18cee0faa7bb927db4);
+            
+        
+
+        marker_813c0333d3c890bd43d7a292edde613d.bindPopup(popup_1aea2896bcb8a535347d484a5967ed1c)
+        ;
+
+        
+    
+    
+            var marker_ddb9c84318fd2adfd6cdd271c5c0cddc = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_a294c7f7f59103ae161e32d34ccbbe6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ddb9c84318fd2adfd6cdd271c5c0cddc.setIcon(icon_a294c7f7f59103ae161e32d34ccbbe6d);
+        
+    
+        var popup_1f661e481e5cac90d93d096802e550ff = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a042bc2bdc391f87a670cc986cff820a = $(`<div id="html_a042bc2bdc391f87a670cc986cff820a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Gl0Mqk.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>긴가지해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_1f661e481e5cac90d93d096802e550ff.setContent(html_a042bc2bdc391f87a670cc986cff820a);
+            
+        
+
+        marker_ddb9c84318fd2adfd6cdd271c5c0cddc.bindPopup(popup_1f661e481e5cac90d93d096802e550ff)
+        ;
+
+        
+    
+    
+            var marker_b38f7a7dc3a3b7edc4750a7d5272c2aa = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_00ce62e9db14dcd195805a4beca9818d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b38f7a7dc3a3b7edc4750a7d5272c2aa.setIcon(icon_00ce62e9db14dcd195805a4beca9818d);
+        
+    
+        var popup_9759192db1ccd00b5f74a311a5113514 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_215a6353adc17cadb90cb1c8d6ae4cc0 = $(`<div id="html_215a6353adc17cadb90cb1c8d6ae4cc0" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Gl0Mqk.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>긴가지해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_9759192db1ccd00b5f74a311a5113514.setContent(html_215a6353adc17cadb90cb1c8d6ae4cc0);
+            
+        
+
+        marker_b38f7a7dc3a3b7edc4750a7d5272c2aa.bindPopup(popup_9759192db1ccd00b5f74a311a5113514)
+        ;
+
+        
+    
+    
+            var marker_55465c441a3994bb9b9752d1899d94fa = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_b9a8eed813692b1510ef3c2bb1ce6992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55465c441a3994bb9b9752d1899d94fa.setIcon(icon_b9a8eed813692b1510ef3c2bb1ce6992);
+        
+    
+        var popup_9f415efa0aed04f11eb9b77d5708975e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6e6f3114129aa66aa62124531569233e = $(`<div id="html_6e6f3114129aa66aa62124531569233e" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Gl0Mqk.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>긴가지해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_9f415efa0aed04f11eb9b77d5708975e.setContent(html_6e6f3114129aa66aa62124531569233e);
+            
+        
+
+        marker_55465c441a3994bb9b9752d1899d94fa.bindPopup(popup_9f415efa0aed04f11eb9b77d5708975e)
+        ;
+
+        
+    
+    
+            var marker_e8c1dad77a99b1164375984157626b59 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_6e600ffd21a2b7c2fdde6b164517f1cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8c1dad77a99b1164375984157626b59.setIcon(icon_6e600ffd21a2b7c2fdde6b164517f1cb);
+        
+    
+        var popup_3b428ae8bba11ddb89b01eb5100b82b6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_757509a16db739d67592e6abd5d70bbf = $(`<div id="html_757509a16db739d67592e6abd5d70bbf" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/rG9wgm.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_3b428ae8bba11ddb89b01eb5100b82b6.setContent(html_757509a16db739d67592e6abd5d70bbf);
+            
+        
+
+        marker_e8c1dad77a99b1164375984157626b59.bindPopup(popup_3b428ae8bba11ddb89b01eb5100b82b6)
+        ;
+
+        
+    
+    
+            var marker_53e3adda5932098f2f17c98a03707d4e = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c45b9a096a43f0c292258d265f9762f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53e3adda5932098f2f17c98a03707d4e.setIcon(icon_c45b9a096a43f0c292258d265f9762f6);
+        
+    
+        var popup_a7db6c8dfc951768bebecf8fc97c6ad8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7f750bd89e421bdeb69933a2c2f51d3a = $(`<div id="html_7f750bd89e421bdeb69933a2c2f51d3a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/rG9wgm.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_a7db6c8dfc951768bebecf8fc97c6ad8.setContent(html_7f750bd89e421bdeb69933a2c2f51d3a);
+            
+        
+
+        marker_53e3adda5932098f2f17c98a03707d4e.bindPopup(popup_a7db6c8dfc951768bebecf8fc97c6ad8)
+        ;
+
+        
+    
+    
+            var marker_832a65d4ecdfe366fd8b93a09a5825d5 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_cd9ba961da1529834971955b1584685c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_832a65d4ecdfe366fd8b93a09a5825d5.setIcon(icon_cd9ba961da1529834971955b1584685c);
+        
+    
+        var popup_a6b425163fd7800295b4d3d70c749748 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1ddbe13858f73b49ffc89bbc6467f77f = $(`<div id="html_1ddbe13858f73b49ffc89bbc6467f77f" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/rG9wgm.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해송</b></div><div style='margin-top: 5px;'>nan</div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) (<font color='blue'>천연기념물</font>) </div></div>`)[0];
+                popup_a6b425163fd7800295b4d3d70c749748.setContent(html_1ddbe13858f73b49ffc89bbc6467f77f);
+            
+        
+
+        marker_832a65d4ecdfe366fd8b93a09a5825d5.bindPopup(popup_a6b425163fd7800295b4d3d70c749748)
+        ;
+
+        
+    
+    
+            var marker_da466443d85621e8082b73a172bf60e5 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_ea6fad503f0e72d4d7f1852b1abf5671 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da466443d85621e8082b73a172bf60e5.setIcon(icon_ea6fad503f0e72d4d7f1852b1abf5671);
+        
+    
+        var popup_82742557fbc8939f0592268986850894 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1cc232c354d61a5f6a1fc6f0204e95f9 = $(`<div id="html_1cc232c354d61a5f6a1fc6f0204e95f9" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/qS3274.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해송류 A(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_82742557fbc8939f0592268986850894.setContent(html_1cc232c354d61a5f6a1fc6f0204e95f9);
+            
+        
+
+        marker_da466443d85621e8082b73a172bf60e5.bindPopup(popup_82742557fbc8939f0592268986850894)
+        ;
+
+        
+    
+    
+            var marker_75721fb2820c415fda66b62cfac8a4ea = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_6935f8cad9a215ad9fc8cc48e1d76b6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75721fb2820c415fda66b62cfac8a4ea.setIcon(icon_6935f8cad9a215ad9fc8cc48e1d76b6e);
+        
+    
+        var popup_a9fc6b4027d07907af1586582ca6865c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2ba02e30fc69036e5d5415df99974328 = $(`<div id="html_2ba02e30fc69036e5d5415df99974328" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/K19Gv5.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해송류 B(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_a9fc6b4027d07907af1586582ca6865c.setContent(html_2ba02e30fc69036e5d5415df99974328);
+            
+        
+
+        marker_75721fb2820c415fda66b62cfac8a4ea.bindPopup(popup_a9fc6b4027d07907af1586582ca6865c)
+        ;
+
+        
+    
+    
+            var marker_909c85ffa086fa504056e6e74aa9c0a0 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e6c2ce29ccfe285d6b87f5a783e6a231 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_909c85ffa086fa504056e6e74aa9c0a0.setIcon(icon_e6c2ce29ccfe285d6b87f5a783e6a231);
+        
+    
+        var popup_bca8e066bb0cd6c81d0caf78a8a6f614 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b0005bb0243ee0522e97f8387385ffd4 = $(`<div id="html_b0005bb0243ee0522e97f8387385ffd4" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/apmtsZ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>그물코돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 피복형 또는 판상형, 또는 덩어리 모양이다. 산호협들은 세리오이드형으로 함몰되어 배열하여 그물 모양을 이룬다. 격벽의 가장자리는 미세한 톱니 모양이다. 군체는 진한 갈색 또는 녹색이고, 촉수는 녹색이다. </div><div></div></div>`)[0];
+                popup_bca8e066bb0cd6c81d0caf78a8a6f614.setContent(html_b0005bb0243ee0522e97f8387385ffd4);
+            
+        
+
+        marker_909c85ffa086fa504056e6e74aa9c0a0.bindPopup(popup_bca8e066bb0cd6c81d0caf78a8a6f614)
+        ;
+
+        
+    
+    
+            var marker_43257d895ffa53b6665a3f375aeb8305 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_bf1e43ffaf318d7e55470956fd800482 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43257d895ffa53b6665a3f375aeb8305.setIcon(icon_bf1e43ffaf318d7e55470956fd800482);
+        
+    
+        var popup_d36374d34efaa2db4bb910da2bfe9f69 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4294214117517231b18380a201ffc23c = $(`<div id="html_4294214117517231b18380a201ffc23c" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/qvDxh9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>별빗돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 피복형 또는 덩어리 모양이다. 산호협은 단면에 판금형으로 배열한다. 체부는 암갈색, 구부는 녹색이며, 골격은 백색의 격벽 상부를 제외하고 대체적으로 암갈색이다. 출처 : 해양생명자원통합정보시스템</div><div></div></div>`)[0];
+                popup_d36374d34efaa2db4bb910da2bfe9f69.setContent(html_4294214117517231b18380a201ffc23c);
+            
+        
+
+        marker_43257d895ffa53b6665a3f375aeb8305.bindPopup(popup_d36374d34efaa2db4bb910da2bfe9f69)
+        ;
+
+        
+    
+    
+            var marker_08bb769c6a5781b09faa3dbabe7d8d44 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f851f6997d499c723aeee46cde9e37cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_08bb769c6a5781b09faa3dbabe7d8d44.setIcon(icon_f851f6997d499c723aeee46cde9e37cd);
+        
+    
+        var popup_445388b6a3232618e7caa05943566e18 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_766874117c098a058b3d4ebd461d6479 = $(`<div id="html_766874117c098a058b3d4ebd461d6479" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/b5wKSa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빛단풍돌산호 </b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 단면 혹은 양면의 판상형이다. 산호협들은 함몰되어 있고 그물 모양을 이룬다. 군체는 녹갈색, 군체의 가장자리는 백색이다. </div><div></div></div>`)[0];
+                popup_445388b6a3232618e7caa05943566e18.setContent(html_766874117c098a058b3d4ebd461d6479);
+            
+        
+
+        marker_08bb769c6a5781b09faa3dbabe7d8d44.bindPopup(popup_445388b6a3232618e7caa05943566e18)
+        ;
+
+        
+    
+    
+            var marker_14d9979eda87a59b04696da28a2c9107 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_6d728179a7338e0dba544ff166301acb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14d9979eda87a59b04696da28a2c9107.setIcon(icon_6d728179a7338e0dba544ff166301acb);
+        
+    
+        var popup_4948f9ff36b6c52701b84b3f5411a7a7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_555262068ff5c4b09479c4993993da5d = $(`<div id="html_555262068ff5c4b09479c4993993da5d" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/FafVVo.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>금빛나팔돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 반구형 또는 꽃다발 모양이다. 광합성을 통해 에너지를 제공받지 못하고 야간에 촉수를 이용해 동물성 플랑크톤을 섭식하여 성장하는 특징이 있다. 군체는 주홍색 또는 황색, 갈색 또는 녹색이고 촉수는 황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_4948f9ff36b6c52701b84b3f5411a7a7.setContent(html_555262068ff5c4b09479c4993993da5d);
+            
+        
+
+        marker_14d9979eda87a59b04696da28a2c9107.bindPopup(popup_4948f9ff36b6c52701b84b3f5411a7a7)
+        ;
+
+        
+    
+    
+            var marker_ad7ebc00ef8227771edec8da54898133 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_a5a4734c94f565fc5a8d998d92f86200 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad7ebc00ef8227771edec8da54898133.setIcon(icon_a5a4734c94f565fc5a8d998d92f86200);
+        
+    
+        var popup_27126af4a79f93197c1c131a077af883 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d6c17ea9c8e712ce2ea1017262fba1e3 = $(`<div id="html_d6c17ea9c8e712ce2ea1017262fba1e3" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/qvDxh9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>별빗돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 피복형 또는 덩어리 모양이다. 산호협은 단면에 판금형으로 배열한다. 체부는 암갈색, 구부는 녹색이며, 골격은 백색의 격벽 상부를 제외하고 대체적으로 암갈색이다. </div><div></div></div>`)[0];
+                popup_27126af4a79f93197c1c131a077af883.setContent(html_d6c17ea9c8e712ce2ea1017262fba1e3);
+            
+        
+
+        marker_ad7ebc00ef8227771edec8da54898133.bindPopup(popup_27126af4a79f93197c1c131a077af883)
+        ;
+
+        
+    
+    
+            var marker_be5cf55482133d1fcce739ce62cca7dd = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_08c5fdd2fcc60fa4aab18fbdbfcb7dfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be5cf55482133d1fcce739ce62cca7dd.setIcon(icon_08c5fdd2fcc60fa4aab18fbdbfcb7dfc);
+        
+    
+        var popup_9ae6c9514aaaf40fb4069b4c83b09126 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e2de7d92c8d1c983ab0e4e63a3b1d07d = $(`<div id="html_e2de7d92c8d1c983ab0e4e63a3b1d07d" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/b5wKSa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빛단풍돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 단면 혹은 양면의 판상형이다. 산호협들은 함몰되어 있고 그물 모양을 이룬다. 군체는 녹갈색, 군체의 가장자리는 백색이다. </div><div></div></div>`)[0];
+                popup_9ae6c9514aaaf40fb4069b4c83b09126.setContent(html_e2de7d92c8d1c983ab0e4e63a3b1d07d);
+            
+        
+
+        marker_be5cf55482133d1fcce739ce62cca7dd.bindPopup(popup_9ae6c9514aaaf40fb4069b4c83b09126)
+        ;
+
+        
+    
+    
+            var marker_a76f7523810344a305258011a6018de7 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_a1ce658fe7d1eb09b47c087a168ca60c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a76f7523810344a305258011a6018de7.setIcon(icon_a1ce658fe7d1eb09b47c087a168ca60c);
+        
+    
+        var popup_00f05d52b7697945b375cca01973cc36 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ddded649fa58216d5a8a89815d2ae3a7 = $(`<div id="html_ddded649fa58216d5a8a89815d2ae3a7" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/PvfBLm.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>돌산호목 기타A(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_00f05d52b7697945b375cca01973cc36.setContent(html_ddded649fa58216d5a8a89815d2ae3a7);
+            
+        
+
+        marker_a76f7523810344a305258011a6018de7.bindPopup(popup_00f05d52b7697945b375cca01973cc36)
+        ;
+
+        
+    
+    
+            var marker_9ae37c5a0d133da4e7f9f3f2eb9e66f7 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_9749b4d67f4907629150cbf78a0be634 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ae37c5a0d133da4e7f9f3f2eb9e66f7.setIcon(icon_9749b4d67f4907629150cbf78a0be634);
+        
+    
+        var popup_c7b9be9a5d51de3ac2b8d0afdbf80246 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_67791f00949a98f7fc28a09229ffd4a7 = $(`<div id="html_67791f00949a98f7fc28a09229ffd4a7" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/Vj045V.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>돌산호목 기타B(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_c7b9be9a5d51de3ac2b8d0afdbf80246.setContent(html_67791f00949a98f7fc28a09229ffd4a7);
+            
+        
+
+        marker_9ae37c5a0d133da4e7f9f3f2eb9e66f7.bindPopup(popup_c7b9be9a5d51de3ac2b8d0afdbf80246)
+        ;
+
+        
+    
+    
+            var marker_7222adccb9fb40bf9caf64fd91247013 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_199a1b9b64311ecc82e62accffe1039f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7222adccb9fb40bf9caf64fd91247013.setIcon(icon_199a1b9b64311ecc82e62accffe1039f);
+        
+    
+        var popup_05d9610bf0c056aa6b34adbc8c158527 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a2464c1608c0b3c211ce391752dde5a1 = $(`<div id="html_a2464c1608c0b3c211ce391752dde5a1" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/qK5Yt0.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>나무돌산호과 A(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_05d9610bf0c056aa6b34adbc8c158527.setContent(html_a2464c1608c0b3c211ce391752dde5a1);
+            
+        
+
+        marker_7222adccb9fb40bf9caf64fd91247013.bindPopup(popup_05d9610bf0c056aa6b34adbc8c158527)
+        ;
+
+        
+    
+    
+            var marker_ce800f30ac51c731a4e1b64f722ccc00 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_b498c59d770250ebb04505eb21b02f70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ce800f30ac51c731a4e1b64f722ccc00.setIcon(icon_b498c59d770250ebb04505eb21b02f70);
+        
+    
+        var popup_ba542645b2e58839b132ac6cc04dd4e8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9699a9baf00e63b534ab78425f551c06 = $(`<div id="html_9699a9baf00e63b534ab78425f551c06" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/FafVVo.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>금빛나팔돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 반구형 또는 꽃다발 모양이다. 광합성을 통해 에너지를 제공받지 못하고 야간에 촉수를 이용해 동물성 플랑크톤을 섭식하여 성장하는 특징이 있다. 군체는 주홍색 또는 황색, 갈색 또는 녹색이고 촉수는 황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_ba542645b2e58839b132ac6cc04dd4e8.setContent(html_9699a9baf00e63b534ab78425f551c06);
+            
+        
+
+        marker_ce800f30ac51c731a4e1b64f722ccc00.bindPopup(popup_ba542645b2e58839b132ac6cc04dd4e8)
+        ;
+
+        
+    
+    
+            var marker_93dc32ca7bed9a40a82d160fe60180dc = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_344cc7d70aaa7429642afc001689cf99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93dc32ca7bed9a40a82d160fe60180dc.setIcon(icon_344cc7d70aaa7429642afc001689cf99);
+        
+    
+        var popup_dc2861e24b8e912bc3b6d6b93a80b479 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7b4345da85e1b67e4a5cc022b440922e = $(`<div id="html_7b4345da85e1b67e4a5cc022b440922e" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/b5wKSa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빛단풍돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 단면 혹은 양면의 판상형이다. 산호협들은 함몰되어 있고 그물 모양을 이룬다. 군체는 녹갈색, 군체의 가장자리는 백색이다. </div><div></div></div>`)[0];
+                popup_dc2861e24b8e912bc3b6d6b93a80b479.setContent(html_7b4345da85e1b67e4a5cc022b440922e);
+            
+        
+
+        marker_93dc32ca7bed9a40a82d160fe60180dc.bindPopup(popup_dc2861e24b8e912bc3b6d6b93a80b479)
+        ;
+
+        
+    
+    
+            var marker_e2accc0fdb70f7ceb6e8c139ed8e4dff = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_f2ed04e195d054bb9b526eaa468fb938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2accc0fdb70f7ceb6e8c139ed8e4dff.setIcon(icon_f2ed04e195d054bb9b526eaa468fb938);
+        
+    
+        var popup_35fe3f0fc9293b9bee5152069ad10402 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0c2c29863685d4a3f246f3c434569d64 = $(`<div id="html_0c2c29863685d4a3f246f3c434569d64" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/apmtsZ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>그물코돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 피복형 또는 판상형, 또는 덩어리 모양이다. 산호협들은 세리오이드형으로 함몰되어 배열하여 그물 모양을 이룬다. 격벽의 가장자리는 미세한 톱니 모양이다. 군체는 진한 갈색 또는 녹색이고, 촉수는 녹색이다. 출</div><div></div></div>`)[0];
+                popup_35fe3f0fc9293b9bee5152069ad10402.setContent(html_0c2c29863685d4a3f246f3c434569d64);
+            
+        
+
+        marker_e2accc0fdb70f7ceb6e8c139ed8e4dff.bindPopup(popup_35fe3f0fc9293b9bee5152069ad10402)
+        ;
+
+        
+    
+    
+            var marker_03ea6d518710084962aa76e1c55dbcf5 = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_d348949eb7d2fd1cd65ddee355840f09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03ea6d518710084962aa76e1c55dbcf5.setIcon(icon_d348949eb7d2fd1cd65ddee355840f09);
+        
+    
+        var popup_2d822e848a91b01bb0193214328511ec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f393834f49251e4fa9e3c8e1d9a60373 = $(`<div id="html_f393834f49251e4fa9e3c8e1d9a60373" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/qvDxh9.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>별빗돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 피복형 또는 덩어리 모양이다. 산호협은 단면에 판금형으로 배열한다. 체부는 암갈색, 구부는 녹색이며, 골격은 백색의 격벽 상부를 제외하고 대체적으로 암갈색이다. </div><div></div></div>`)[0];
+                popup_2d822e848a91b01bb0193214328511ec.setContent(html_f393834f49251e4fa9e3c8e1d9a60373);
+            
+        
+
+        marker_03ea6d518710084962aa76e1c55dbcf5.bindPopup(popup_2d822e848a91b01bb0193214328511ec)
+        ;
+
+        
+    
+    
+            var marker_263eae5bde71b74acf2d7bbe5872c90f = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_358c573fc89bcc1b916d97ef3cc3caf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_263eae5bde71b74acf2d7bbe5872c90f.setIcon(icon_358c573fc89bcc1b916d97ef3cc3caf3);
+        
+    
+        var popup_fdd6deb177be049a7df583ffe410c441 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_562eee818142c36062ea46c150fa4385 = $(`<div id="html_562eee818142c36062ea46c150fa4385" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/b5wKSa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빛단풍돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 단면 혹은 양면의 판상형이다. 산호협들은 함몰되어 있고 그물 모양을 이룬다. 군체는 녹갈색, 군체의 가장자리는 백색이다. </div><div></div></div>`)[0];
+                popup_fdd6deb177be049a7df583ffe410c441.setContent(html_562eee818142c36062ea46c150fa4385);
+            
+        
+
+        marker_263eae5bde71b74acf2d7bbe5872c90f.bindPopup(popup_fdd6deb177be049a7df583ffe410c441)
+        ;
+
+        
+    
+    
+            var marker_19e7f631fa75cdffb7f96e2c28824933 = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_b7cb94b1b2ad5f95a12668b9d8e03292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19e7f631fa75cdffb7f96e2c28824933.setIcon(icon_b7cb94b1b2ad5f95a12668b9d8e03292);
+        
+    
+        var popup_c009313a63daaf3cc794a294433f8185 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_288ed936307dc605884ebd7852276cc4 = $(`<div id="html_288ed936307dc605884ebd7852276cc4" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/HvgYdr.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>돌산호목 기타C(미동정)</b></div><div style='margin-top: 5px;'>군체는 주홍색을 띠고, 촉수는 무색을 띤다. </div><div></div></div>`)[0];
+                popup_c009313a63daaf3cc794a294433f8185.setContent(html_288ed936307dc605884ebd7852276cc4);
+            
+        
+
+        marker_19e7f631fa75cdffb7f96e2c28824933.bindPopup(popup_c009313a63daaf3cc794a294433f8185)
+        ;
+
+        
+    
+    
+            var marker_2ef2d2a299def209296e57ed05288ade = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_bc87bb17a2ab5f81d7053926a070edad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ef2d2a299def209296e57ed05288ade.setIcon(icon_bc87bb17a2ab5f81d7053926a070edad);
+        
+    
+        var popup_b27658297966f4c3790ea6862227cf17 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5b07c55d4d07c64b407b653fdd4dedbf = $(`<div id="html_5b07c55d4d07c64b407b653fdd4dedbf" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/FafVVo.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>금빛나팔돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 반구형 또는 꽃다발 모양이다. 광합성을 통해 에너지를 제공받지 못하고 야간에 촉수를 이용해 동물성 플랑크톤을 섭식하여 성장하는 특징이 있다. 군체는 주홍색 또는 황색, 갈색 또는 녹색이고 촉수는 황색을 띤다. </div><div>(<font color='blue'>멸종위기 야생생물2급</font>) (<font color='blue'>해양 보호생물</font>) </div></div>`)[0];
+                popup_b27658297966f4c3790ea6862227cf17.setContent(html_5b07c55d4d07c64b407b653fdd4dedbf);
+            
+        
+
+        marker_2ef2d2a299def209296e57ed05288ade.bindPopup(popup_b27658297966f4c3790ea6862227cf17)
+        ;
+
+        
+    
+    
+            var marker_ccd46317bb66f91045728c8545de88fd = L.marker(
+                [33.2164361, 126.5152358],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_b2ae936ef6115cbb94ec7ee9e5be796f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ccd46317bb66f91045728c8545de88fd.setIcon(icon_b2ae936ef6115cbb94ec7ee9e5be796f);
+        
+    
+        var popup_a9cd4d5217297ebc666e7936b35e692e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e454e7d2049ee4aa5d7eac7d39753adf = $(`<div id="html_e454e7d2049ee4aa5d7eac7d39753adf" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/cTgchg.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>나무돌산호과 E(미동정)</b></div><div style='margin-top: 5px;'>군체는 갈색이다. 나무돌산호과에는 관목나무돌산호, 꽃나무돌산호, 보슈마나무돌산호, 유착나무돌산호, 잔가지나무돌산호 등이 있다.</div><div></div></div>`)[0];
+                popup_a9cd4d5217297ebc666e7936b35e692e.setContent(html_e454e7d2049ee4aa5d7eac7d39753adf);
+            
+        
+
+        marker_ccd46317bb66f91045728c8545de88fd.bindPopup(popup_a9cd4d5217297ebc666e7936b35e692e)
+        ;
+
+        
+    
+    
+            var marker_e71d2c9eee74d1cc2e7f16d98b1880b8 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_80979fdcef0c8368e9f2f1d72d60e9ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e71d2c9eee74d1cc2e7f16d98b1880b8.setIcon(icon_80979fdcef0c8368e9f2f1d72d60e9ed);
+        
+    
+        var popup_b83fb8915543811f575dc21638b7a1b9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f2f829eecbffcff6ddc714bdb9ae81af = $(`<div id="html_f2f829eecbffcff6ddc714bdb9ae81af" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/b5wKSa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빛단풍돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 단면 혹은 양면의 판상형이다. 산호협들은 함몰되어 있고 그물 모양을 이룬다. 군체는 녹갈색, 군체의 가장자리는 백색이다. </div><div></div></div>`)[0];
+                popup_b83fb8915543811f575dc21638b7a1b9.setContent(html_f2f829eecbffcff6ddc714bdb9ae81af);
+            
+        
+
+        marker_e71d2c9eee74d1cc2e7f16d98b1880b8.bindPopup(popup_b83fb8915543811f575dc21638b7a1b9)
+        ;
+
+        
+    
+    
+            var marker_3b4a9c40de3ca78965f65c0bc107b4aa = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_47e9a4cbe778e3f6f7ae47af7a1c5727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b4a9c40de3ca78965f65c0bc107b4aa.setIcon(icon_47e9a4cbe778e3f6f7ae47af7a1c5727);
+        
+    
+        var popup_6663e5352df2f59d779e12879d716c66 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0d3d80788dd6a9b6bbe303032d6632c8 = $(`<div id="html_0d3d80788dd6a9b6bbe303032d6632c8" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/apmtsZ.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>그물코돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 피복형 또는 판상형, 또는 덩어리 모양이다. 산호협들은 세리오이드형으로 함몰되어 배열하여 그물 모양을 이룬다. 격벽의 가장자리는 미세한 톱니 모양이다. 군체는 진한 갈색 또는 녹색이고, 촉수는 녹색이다. </div><div></div></div>`)[0];
+                popup_6663e5352df2f59d779e12879d716c66.setContent(html_0d3d80788dd6a9b6bbe303032d6632c8);
+            
+        
+
+        marker_3b4a9c40de3ca78965f65c0bc107b4aa.bindPopup(popup_6663e5352df2f59d779e12879d716c66)
+        ;
+
+        
+    
+    
+            var marker_8689a4449a1ae2a68c87e4ec280232c0 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_c953cf2016245e18813d7aa0d682afbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8689a4449a1ae2a68c87e4ec280232c0.setIcon(icon_c953cf2016245e18813d7aa0d682afbb);
+        
+    
+        var popup_758601ad078fa1964eff96a8dc1031bb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_34686e165c1ed5a76860a168effc94d1 = $(`<div id="html_34686e165c1ed5a76860a168effc94d1" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/b5wKSa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>빛단풍돌산호</b></div><div style='margin-top: 5px;'>산호체는 군체형, 부착형, 단면 혹은 양면의 판상형이다. 산호협들은 함몰되어 있고 그물 모양을 이룬다. 군체는 녹갈색, 군체의 가장자리는 백색이다. </div><div></div></div>`)[0];
+                popup_758601ad078fa1964eff96a8dc1031bb.setContent(html_34686e165c1ed5a76860a168effc94d1);
+            
+        
+
+        marker_8689a4449a1ae2a68c87e4ec280232c0.bindPopup(popup_758601ad078fa1964eff96a8dc1031bb)
+        ;
+
+        
+    
+    
+            var marker_3179fc7448f793b445df2c49288766d9 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_2a54a52210ff35080ee67830ab817d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3179fc7448f793b445df2c49288766d9.setIcon(icon_2a54a52210ff35080ee67830ab817d5b);
+        
+    
+        var popup_f26cdaedf9bb7a2ad74dbc791a78a36d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_196e3bb7f50baec1afc9f6965460de83 = $(`<div id="html_196e3bb7f50baec1afc9f6965460de83" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/jRGLc6.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>담홍말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_f26cdaedf9bb7a2ad74dbc791a78a36d.setContent(html_196e3bb7f50baec1afc9f6965460de83);
+            
+        
+
+        marker_3179fc7448f793b445df2c49288766d9.bindPopup(popup_f26cdaedf9bb7a2ad74dbc791a78a36d)
+        ;
+
+        
+    
+    
+            var marker_c5b95e3fa2c82f56e4b2b75051160ba7 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_fe5c0797410a4ebee8de61ad0670951a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5b95e3fa2c82f56e4b2b75051160ba7.setIcon(icon_fe5c0797410a4ebee8de61ad0670951a);
+        
+    
+        var popup_9fa0c90fa5db11a85cf30e1916f6464f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0f80d1e82ffe1640b953c14972aaae06 = $(`<div id="html_0f80d1e82ffe1640b953c14972aaae06" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/jRGLc6.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>담홍말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_9fa0c90fa5db11a85cf30e1916f6464f.setContent(html_0f80d1e82ffe1640b953c14972aaae06);
+            
+        
+
+        marker_c5b95e3fa2c82f56e4b2b75051160ba7.bindPopup(popup_9fa0c90fa5db11a85cf30e1916f6464f)
+        ;
+
+        
+    
+    
+            var marker_35f767f381eac81ac01daef35759cf4f = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_1656cb9133fdbc19966675fc7c7bde97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35f767f381eac81ac01daef35759cf4f.setIcon(icon_1656cb9133fdbc19966675fc7c7bde97);
+        
+    
+        var popup_b6ff6c02ee5849af7a8ad2b90a2e0646 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_54b62ab88a469e605487b1a469fab0e7 = $(`<div id="html_54b62ab88a469e605487b1a469fab0e7" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/jRGLc6.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>담홍말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_b6ff6c02ee5849af7a8ad2b90a2e0646.setContent(html_54b62ab88a469e605487b1a469fab0e7);
+            
+        
+
+        marker_35f767f381eac81ac01daef35759cf4f.bindPopup(popup_b6ff6c02ee5849af7a8ad2b90a2e0646)
+        ;
+
+        
+    
+    
+            var marker_ebecaf6493bd936b9e298dd5b27b8610 = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_ebe2ed87f5cdb97e0f6eb506b5f2575a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebecaf6493bd936b9e298dd5b27b8610.setIcon(icon_ebe2ed87f5cdb97e0f6eb506b5f2575a);
+        
+    
+        var popup_10367b4d5f51a02b13e1235ab4726f7b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0fb719a43bd94d28bb68182709742d54 = $(`<div id="html_0fb719a43bd94d28bb68182709742d54" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/7hdLKV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰산호말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_10367b4d5f51a02b13e1235ab4726f7b.setContent(html_0fb719a43bd94d28bb68182709742d54);
+            
+        
+
+        marker_ebecaf6493bd936b9e298dd5b27b8610.bindPopup(popup_10367b4d5f51a02b13e1235ab4726f7b)
+        ;
+
+        
+    
+    
+            var marker_ae86dfb251c09b84854906a492c115a4 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_faf3d0c7f59cca469eaaca0d0d74d338 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae86dfb251c09b84854906a492c115a4.setIcon(icon_faf3d0c7f59cca469eaaca0d0d74d338);
+        
+    
+        var popup_fab7b2ec8ccd579534e912217b14580f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_689cbddf9757597fc2fc0f022b38c624 = $(`<div id="html_689cbddf9757597fc2fc0f022b38c624" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/7hdLKV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰산호말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_fab7b2ec8ccd579534e912217b14580f.setContent(html_689cbddf9757597fc2fc0f022b38c624);
+            
+        
+
+        marker_ae86dfb251c09b84854906a492c115a4.bindPopup(popup_fab7b2ec8ccd579534e912217b14580f)
+        ;
+
+        
+    
+    
+            var marker_f8e638e6fc44395c2b3af21f5f1388a6 = L.marker(
+                [33.2215386, 126.5118692],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_e5e5a58feddfdeab6f1d4c01d7178ff4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8e638e6fc44395c2b3af21f5f1388a6.setIcon(icon_e5e5a58feddfdeab6f1d4c01d7178ff4);
+        
+    
+        var popup_da485f58ff5afd5519d4678918f766d9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_be1035c7e9f38c02692073f2d4f94d3c = $(`<div id="html_be1035c7e9f38c02692073f2d4f94d3c" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/7hdLKV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰산호말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_da485f58ff5afd5519d4678918f766d9.setContent(html_be1035c7e9f38c02692073f2d4f94d3c);
+            
+        
+
+        marker_f8e638e6fc44395c2b3af21f5f1388a6.bindPopup(popup_da485f58ff5afd5519d4678918f766d9)
+        ;
+
+        
+    
+    
+            var marker_19b2854266c34762ed6ee664b01ee812 = L.marker(
+                [33.2236309, 126.5078046],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_ba2a57695d8b093330f97e2106e53bc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19b2854266c34762ed6ee664b01ee812.setIcon(icon_ba2a57695d8b093330f97e2106e53bc2);
+        
+    
+        var popup_0b2ea65a338d57d28bf693ba0be7de35 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ba9160952f47b0ff47606cf6fec9628a = $(`<div id="html_ba9160952f47b0ff47606cf6fec9628a" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/7hdLKV.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>큰산호말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_0b2ea65a338d57d28bf693ba0be7de35.setContent(html_ba9160952f47b0ff47606cf6fec9628a);
+            
+        
+
+        marker_19b2854266c34762ed6ee664b01ee812.bindPopup(popup_0b2ea65a338d57d28bf693ba0be7de35)
+        ;
+
+        
+    
+    
+            var marker_dd76d31dadde4c8bf976173aaacdd792 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_fc486c5c4a858da8d84f5758fab8b454 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd76d31dadde4c8bf976173aaacdd792.setIcon(icon_fc486c5c4a858da8d84f5758fab8b454);
+        
+    
+        var popup_03ccf38f3b0ecf3c8f74fb5317c0924c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b4e7dcdb9c7f7f349332b677805215b1 = $(`<div id="html_b4e7dcdb9c7f7f349332b677805215b1" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/NGXM5n.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>호리병말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_03ccf38f3b0ecf3c8f74fb5317c0924c.setContent(html_b4e7dcdb9c7f7f349332b677805215b1);
+            
+        
+
+        marker_dd76d31dadde4c8bf976173aaacdd792.bindPopup(popup_03ccf38f3b0ecf3c8f74fb5317c0924c)
+        ;
+
+        
+    
+    
+            var marker_fa15f67410e891fc6c2d21919a62567f = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_cf1311766d21e1de3ef4cf631732d012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa15f67410e891fc6c2d21919a62567f.setIcon(icon_cf1311766d21e1de3ef4cf631732d012);
+        
+    
+        var popup_19c8b7f9b956ae92b4c9bf7fb068ce7a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_764549c3ea5a280543f262e2d427b60b = $(`<div id="html_764549c3ea5a280543f262e2d427b60b" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/L7VLoC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>융단열말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_19c8b7f9b956ae92b4c9bf7fb068ce7a.setContent(html_764549c3ea5a280543f262e2d427b60b);
+            
+        
+
+        marker_fa15f67410e891fc6c2d21919a62567f.bindPopup(popup_19c8b7f9b956ae92b4c9bf7fb068ce7a)
+        ;
+
+        
+    
+    
+            var marker_1b887768c1e6d67a2021800bc023f275 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_cad3c354daa998e02d43d75e89d821fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b887768c1e6d67a2021800bc023f275.setIcon(icon_cad3c354daa998e02d43d75e89d821fe);
+        
+    
+        var popup_20456a7a530e5e49269bde0c6a765156 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c8debc44f738ca6bee70db48523e499f = $(`<div id="html_c8debc44f738ca6bee70db48523e499f" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/L7VLoC.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>융단열말미잘</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_20456a7a530e5e49269bde0c6a765156.setContent(html_c8debc44f738ca6bee70db48523e499f);
+            
+        
+
+        marker_1b887768c1e6d67a2021800bc023f275.bindPopup(popup_20456a7a530e5e49269bde0c6a765156)
+        ;
+
+        
+    
+    
+            var marker_34f50adfe5737bb3da6ed0c2c42600aa = L.marker(
+                [33.218746, 126.5137245],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_14ca477e29f06ab59add768ab0de31c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34f50adfe5737bb3da6ed0c2c42600aa.setIcon(icon_14ca477e29f06ab59add768ab0de31c8);
+        
+    
+        var popup_146dc3bdb6c24bfbba20f9d3b11fc97a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a0bea26fb33a60aaedb9867e6059e531 = $(`<div id="html_a0bea26fb33a60aaedb9867e6059e531" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/4zS3bj.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해변말미잘과-미기록A</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_146dc3bdb6c24bfbba20f9d3b11fc97a.setContent(html_a0bea26fb33a60aaedb9867e6059e531);
+            
+        
+
+        marker_34f50adfe5737bb3da6ed0c2c42600aa.bindPopup(popup_146dc3bdb6c24bfbba20f9d3b11fc97a)
+        ;
+
+        
+    
+    
+            var marker_8e1643b9c02dd784763501064f29cdec = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_4a6ee63d39595b320fb5b64c65d3e2ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e1643b9c02dd784763501064f29cdec.setIcon(icon_4a6ee63d39595b320fb5b64c65d3e2ac);
+        
+    
+        var popup_176072876a8b02e5d56783ca28cbd5af = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c500e3c9c1a5126fa4fc2f43052abdb2 = $(`<div id="html_c500e3c9c1a5126fa4fc2f43052abdb2" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/4zS3bj.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해변말미잘과-미기록A</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_176072876a8b02e5d56783ca28cbd5af.setContent(html_c500e3c9c1a5126fa4fc2f43052abdb2);
+            
+        
+
+        marker_8e1643b9c02dd784763501064f29cdec.bindPopup(popup_176072876a8b02e5d56783ca28cbd5af)
+        ;
+
+        
+    
+    
+            var marker_497adbb9c7094c33e7c627062bc83ce0 = L.marker(
+                [33.2208638, 126.5169363],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_5638e3b9938c47e21e06f66b88473055 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_497adbb9c7094c33e7c627062bc83ce0.setIcon(icon_5638e3b9938c47e21e06f66b88473055);
+        
+    
+        var popup_4bcb7b77ccafa9c6887b3d956457aee5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_34a2deab2bf741dbad368e763e00a1d6 = $(`<div id="html_34a2deab2bf741dbad368e763e00a1d6" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/4zS3bj.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해변말미잘과-미기록A</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_4bcb7b77ccafa9c6887b3d956457aee5.setContent(html_34a2deab2bf741dbad368e763e00a1d6);
+            
+        
+
+        marker_497adbb9c7094c33e7c627062bc83ce0.bindPopup(popup_4bcb7b77ccafa9c6887b3d956457aee5)
+        ;
+
+        
+    
+    
+            var marker_4b6c78a45645de68256df0698a6fb546 = L.marker(
+                [33.2199614, 126.5173484],
+                {}
+            ).addTo(marker_cluster_c9f66feecce4459df3d920ac274b944e);
+        
+    
+            var icon_539d0fcf4c7ada792fd623d4eafa2a5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b6c78a45645de68256df0698a6fb546.setIcon(icon_539d0fcf4c7ada792fd623d4eafa2a5e);
+        
+    
+        var popup_97655185fba18299f6257f168e742bdf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7b4e2f56c9ce45f80d08061f363e9603 = $(`<div id="html_7b4e2f56c9ce45f80d08061f363e9603" style="width: 100.0%; height: 100.0%;"><div><img src='https://ifh.cc/g/OQsZGa.jpg' width='200' height='200'></div><div style='font-size: 16px; margin-top: 5px;'><b>해변말미잘과 A(미동정)</b></div><div style='margin-top: 5px;'>nan</div><div></div></div>`)[0];
+                popup_97655185fba18299f6257f168e742bdf.setContent(html_7b4e2f56c9ce45f80d08061f363e9603);
+            
+        
+
+        marker_4b6c78a45645de68256df0698a6fb546.bindPopup(popup_97655185fba18299f6257f168e742bdf)
+        ;
+
+        
+    
+    
+            marker_cluster_c9f66feecce4459df3d920ac274b944e.addTo(map_b232655cc5812e66a7dcef49a6c239b6);
+        
+    
+            var circle_d2a03108a12b1ee7620f00134eacc5b6 = L.circle(
+                [33.218746, 126.5137245],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_b232655cc5812e66a7dcef49a6c239b6);
+        
+    
+            var circle_23a210e1f8fcc169a26190cd4679bb62 = L.circle(
+                [33.2199614, 126.5173484],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_b232655cc5812e66a7dcef49a6c239b6);
+        
+    
+            var circle_2acf910c21471aa498ece02db07031bf = L.circle(
+                [33.2236309, 126.5078046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200, "stroke": true, "weight": 3}
+            ).addTo(map_b232655cc5812e66a7dcef49a6c239b6);
+        
+</script>
+</html>
